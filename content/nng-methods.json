@@ -1,0 +1,33 @@
+{
+  "source": "Nielsen Norman Group",
+  "sender": "alertbox@nngroup.com",
+  "items": [
+    {
+      "gmailMessageId": "18de60ca93f4ba6a",
+      "date": "2024-02-26",
+      "subject": "Card Sorting vs. Tree Testing",
+      "topic": "信息架构",
+      "title": "卡片分类与树测试，分别该在什么时候用？",
+      "summary": "卡片分类帮助团队理解用户如何组织信息，用来塑造信息架构；树测试则隐藏视觉设计，只检验既有层级是否真的找得到。",
+      "insight": "先用卡片分类构建，再用树测试验证。"
+    },
+    {
+      "gmailMessageId": "18dc2a2f25715f33",
+      "date": "2024-02-19",
+      "subject": "The UX of AI: Lessons from Perplexity | Usability Heuristics Applied to Board Games",
+      "topic": "AI 体验",
+      "title": "从 Perplexity 学习：AI 产品要先服务信息寻找",
+      "summary": "Perplexity 设计负责人分享了如何让 AI 工具在信息寻找过程中更易用、更高效。重点不是展示模型能力，而是帮助用户快速形成可信判断。",
+      "insight": "模型是能力，信息路径才是体验。"
+    },
+    {
+      "gmailMessageId": "18d9df4ecf56dd1e",
+      "date": "2024-02-12",
+      "subject": "13 QR-Code Usability Guidelines",
+      "topic": "可用性",
+      "title": "二维码旁边，必须先回答“扫了会发生什么”",
+      "summary": "有效的二维码需要简短、清晰且符合情境的说明，扫描后也必须抵达与当前任务直接相关的页面。",
+      "insight": "不要只放一个入口，要先给出进入的理由。"
+    }
+  ]
+}

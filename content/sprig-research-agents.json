@@ -1,0 +1,27 @@
+{
+  "source": "Sprig",
+  "sender": "ryan.glasgow@sprig.com",
+  "gmailMessageId": "19db04b255b88121",
+  "date": "2026-04-21",
+  "subject": "Research Agents are coming to Sprig",
+  "title": "研究代理，不只是帮你总结问卷",
+  "summary": "Sprig 正在把问卷平台改造成由 Research Agents 驱动的端到端研究系统，让研究目标、动态追问与洞察提炼处在同一条可回溯的工作流里。",
+  "agents": [
+    {
+      "name": "Design Agent",
+      "title": "把研究目标变成研究方案",
+      "description": "根据团队想回答的问题搭建研究，不再从空白问卷开始。"
+    },
+    {
+      "name": "Field Agent",
+      "title": "根据回答继续追问",
+      "description": "问卷不再是一条固定路径，而是依据受访者的回答动态深入。"
+    },
+    {
+      "name": "Synthesize Agent",
+      "title": "把回答变成可解释的洞察",
+      "description": "从分散反馈中提炼清晰结论，同时保留团队可以复核的依据。"
+    }
+  ],
+  "insight": "AI 真正改变研究的地方，不是替人写摘要，而是让“提出问题—追问—验证”变成一条连续且可回溯的链路。"
+}

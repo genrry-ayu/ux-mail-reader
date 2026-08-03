@@ -1,5 +1,31 @@
 {
   "updatedAt": "2026-07-27T06:47:24Z",
+  "sources": [
+    {
+      "id": "ux-bites",
+      "name": "UX Bites",
+      "role": "cases",
+      "sender": "peter@builtformars.com",
+      "latestMessageId": "19fa2540ad88c707",
+      "latestDate": "2026-07-27"
+    },
+    {
+      "id": "sprig",
+      "name": "Sprig",
+      "role": "research",
+      "senderDomain": "sprig.com",
+      "latestMessageId": "19db04b255b88121",
+      "latestDate": "2026-04-21"
+    },
+    {
+      "id": "nng",
+      "name": "Nielsen Norman Group",
+      "role": "methods",
+      "sender": "alertbox@nngroup.com",
+      "latestMessageId": "18de60ca93f4ba6a",
+      "latestDate": "2024-02-26"
+    }
+  ],
   "latestIssue": 131,
   "issues": [
     {

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="把 UX Bites 邮件整理成自然、易读的中文设计案例。"
+      content="从 UX Bites、Sprig 与 Nielsen Norman Group 提炼中文产品体验案例、研究趋势与方法。"
     />
     <meta name="theme-color" content="#f3efe6" />
     <title>UX 信箱｜中文产品体验阅读志</title>
-    <link rel="stylesheet" href="./styles.css?v=20260803-3" />
-    <script src="./app.js?v=20260803-3" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=20260803-4" />
+    <script src="./app.js?v=20260803-4" defer></script>
   </head>
   <body>
     <div class="reading-progress" aria-hidden="true">
@@ -28,13 +28,36 @@
       </div>
     </header>
 
+    <nav class="source-nav" aria-label="内容来源">
+      <p>三个信息源 · 三种视角</p>
+      <div>
+        <a class="is-active" href="#ux-bites" data-source-link="ux-bites">
+          <span>01</span>
+          UX Bites
+          <small>案例</small>
+        </a>
+        <a href="#sprig" data-source-link="sprig">
+          <span>02</span>
+          Sprig
+          <small>研究</small>
+        </a>
+        <a href="#nng" data-source-link="nng">
+          <span>03</span>
+          NN/g
+          <small>方法</small>
+        </a>
+      </div>
+    </nav>
+
     <main id="top">
       <div class="reading-layout">
         <article id="issue-131" class="issue">
+          <div id="ux-bites" class="source-group" data-source-group="ux-bites">
           <section id="duolingo" class="case-section" data-section>
             <div class="case-copy reveal">
               <div class="case-meta">
                 <span>01</span>
+                <span>UX Bites</span>
                 <span>Duolingo</span>
                 <span>分享</span>
               </div>
@@ -71,6 +94,7 @@
             <div class="case-copy reveal">
               <div class="case-meta">
                 <span>02</span>
+                <span>UX Bites</span>
                 <span>Airbnb</span>
                 <span>愉悦感</span>
               </div>
@@ -107,6 +131,7 @@
             <div class="case-copy reveal">
               <div class="case-meta">
                 <span>03</span>
+                <span>UX Bites</span>
                 <span>Monzo</span>
                 <span>自我承诺</span>
               </div>
@@ -143,6 +168,7 @@
             <div class="case-copy reveal">
               <div class="case-meta">
                 <span>04</span>
+                <span>UX Bites</span>
                 <span>Grab</span>
                 <span>情境提示</span>
               </div>
@@ -179,6 +205,7 @@
             <div class="case-copy reveal">
               <div class="case-meta">
                 <span>05</span>
+                <span>UX Bites</span>
                 <span>Tome</span>
                 <span>新手引导</span>
               </div>
@@ -210,13 +237,115 @@
               <figcaption>Tome 用图像识别跳过了冗长的逐项录入。</figcaption>
             </figure>
           </section>
+          </div>
+
+          <section id="sprig" class="research-feature" data-source-group="sprig">
+            <div class="source-section-meta reveal">
+              <span>02 / SPRIG</span>
+              <time datetime="2026-04-21">2026.04.21</time>
+              <span>UX Research</span>
+            </div>
+            <div class="research-heading">
+              <h2 class="reveal">研究代理，<br />不只是帮你总结问卷</h2>
+              <p class="reveal">
+                Sprig 正在把问卷平台改造成由 Research Agents 驱动的端到端研究系统：
+                从目标设定、动态追问到形成可辩护的洞察，都在同一个工作流里完成。
+              </p>
+            </div>
+            <div class="agent-flow reveal" aria-label="Sprig Research Agents 工作流">
+              <article>
+                <span>01</span>
+                <p class="agent-name">Design Agent</p>
+                <h3>把研究目标<br />变成研究方案</h3>
+                <p>根据团队想回答的问题搭建研究，不再从空白问卷开始。</p>
+              </article>
+              <article>
+                <span>02</span>
+                <p class="agent-name">Field Agent</p>
+                <h3>根据回答<br />继续追问</h3>
+                <p>问卷不再是一条固定路径，而是依据受访者的回答动态深入。</p>
+              </article>
+              <article>
+                <span>03</span>
+                <p class="agent-name">Synthesize Agent</p>
+                <h3>把回答变成<br />可解释的洞察</h3>
+                <p>从分散反馈中提炼清晰结论，同时保留团队可以复核的依据。</p>
+              </article>
+            </div>
+            <div class="research-takeaway reveal">
+              <span>设计观察</span>
+              <p>
+                AI 真正改变研究的地方，不是替人写摘要，而是让“提出问题—追问—验证”
+                变成一条连续且可回溯的链路。
+              </p>
+            </div>
+          </section>
+
+          <section id="nng" class="methods-section" data-source-group="nng">
+            <div class="source-section-meta reveal">
+              <span>03 / NIELSEN NORMAN GROUP</span>
+              <time datetime="2024-02">2024.02</time>
+              <span>UX Methods</span>
+            </div>
+            <div class="methods-heading">
+              <h2 class="reveal">方法不是答案，<br />是降低试错成本的工具</h2>
+              <p class="reveal">
+                NN/g 的价值不在于提供漂亮案例，而在于把常见设计问题变成可以选择、
+                执行和复盘的方法。
+              </p>
+            </div>
+            <div class="method-list">
+              <article class="method-item reveal">
+                <span class="method-number">01</span>
+                <div class="method-title">
+                  <p>信息架构 · 3 分钟</p>
+                  <h3>卡片分类与树测试，分别该在什么时候用？</h3>
+                </div>
+                <div class="method-copy">
+                  <p>
+                    卡片分类帮助团队理解用户如何组织信息，用来塑造信息架构；
+                    树测试则隐藏视觉设计，只检验既有层级是否真的找得到。
+                  </p>
+                  <strong>先用卡片分类构建，再用树测试验证。</strong>
+                </div>
+              </article>
+              <article class="method-item reveal">
+                <span class="method-number">02</span>
+                <div class="method-title">
+                  <p>AI 体验 · 5 分钟</p>
+                  <h3>从 Perplexity 学习：AI 产品要先服务信息寻找</h3>
+                </div>
+                <div class="method-copy">
+                  <p>
+                    Perplexity 设计负责人分享了如何让 AI 工具在信息寻找过程中更易用、
+                    更高效。重点不是展示模型能力，而是帮助用户快速形成可信判断。
+                  </p>
+                  <strong>模型是能力，信息路径才是体验。</strong>
+                </div>
+              </article>
+              <article class="method-item reveal">
+                <span class="method-number">03</span>
+                <div class="method-title">
+                  <p>可用性 · 11 分钟</p>
+                  <h3>二维码旁边，必须先回答“扫了会发生什么”</h3>
+                </div>
+                <div class="method-copy">
+                  <p>
+                    有效的二维码需要简短、清晰且符合情境的说明，
+                    扫描后也必须抵达与当前任务直接相关的页面。
+                  </p>
+                  <strong>不要只放一个入口，要先给出进入的理由。</strong>
+                </div>
+              </article>
+            </div>
+          </section>
 
           <footer class="issue-footer reveal">
-            <p class="footer-kicker">读完这一期</p>
+            <p class="footer-kicker">三个来源，一条主线</p>
             <blockquote>
-              好体验往往不是多做一步，
+              看见细节，理解方法，
               <br />
-              而是替用户少想一步。
+              再回到真实的人。
             </blockquote>
             <a class="back-to-top" href="#top">
               回到顶部
