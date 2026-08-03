@@ -23,3 +23,5 @@
 ## 内容边界
 
 本站只整理邮件收件人原本可见的内容，不绕过 BFM+ 或其他付费限制。内容来源于 UX Bites 与 Nielsen Norman Group；案例图片来源于 [Built for Mars](https://builtformars.com/)。版权归原作者及相关权利人所有。
+
+NN/g 方法条目提供章节化中文摘要与官方原文入口，摘要用于快速理解，不替代原文。
