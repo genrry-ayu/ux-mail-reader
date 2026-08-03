@@ -73,7 +73,7 @@ img {
   grid-template-columns: 1fr auto;
   align-items: center;
   min-height: 88px;
-  padding: 0 3vw;
+  padding: 0 7vw;
   border-bottom: 1px solid var(--line);
 }
 
@@ -515,7 +515,7 @@ img {
   min-height: 72vh;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 5.5vw;
+  padding: 100px 7vw;
   background: var(--accent);
   color: var(--white);
 }
