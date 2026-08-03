@@ -347,8 +347,8 @@ img {
   display: grid;
   grid-template-columns: minmax(340px, 0.9fr) minmax(440px, 1.1fr);
   gap: 5vw;
-  min-height: calc(100svh - 88px);
-  padding: clamp(72px, 9vw, 130px) 7vw;
+  min-height: auto;
+  padding: clamp(64px, 7vw, 96px) 7vw;
   border-bottom: 1px solid var(--line);
 }
 
