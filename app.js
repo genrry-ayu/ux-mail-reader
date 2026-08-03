@@ -30,37 +30,6 @@ revealItems.forEach((item, index) => {
   revealObserver.observe(item);
 });
 
-const sourceLinks = document.querySelectorAll("[data-source-link]");
-const sourceGroups = document.querySelectorAll("[data-source-group]");
-
-const setActiveSource = (source) => {
-  sourceLinks.forEach((link) => {
-    const isActive = link.dataset.sourceLink === source;
-    link.classList.toggle("is-active", isActive);
-    if (isActive) {
-      link.setAttribute("aria-current", "true");
-    } else {
-      link.removeAttribute("aria-current");
-    }
-  });
-};
-
-const sourceObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        setActiveSource(entry.target.dataset.sourceGroup);
-      }
-    });
-  },
-  { rootMargin: "-18% 0px -70% 0px", threshold: 0 },
-);
-
-sourceGroups.forEach((group) => sourceObserver.observe(group));
-sourceLinks.forEach((link) => {
-  link.addEventListener("click", () => setActiveSource(link.dataset.sourceLink));
-});
-
 document.querySelectorAll(".image-button").forEach((button) => {
   button.addEventListener("click", () => {
     dialogImage.src = button.dataset.image;

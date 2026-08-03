@@ -10,14 +10,6 @@
       "latestDate": "2026-07-27"
     },
     {
-      "id": "sprig",
-      "name": "Sprig",
-      "role": "research",
-      "senderDomain": "sprig.com",
-      "latestMessageId": "19db04b255b88121",
-      "latestDate": "2026-04-21"
-    },
-    {
       "id": "nng",
       "name": "Nielsen Norman Group",
       "role": "methods",
