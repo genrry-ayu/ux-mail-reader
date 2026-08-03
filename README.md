@@ -5,11 +5,12 @@
 ## 内容结构
 
 - `index.html`：静态阅读页
-- `styles.css`：响应式视觉样式
-- `app.js`：目录、阅读进度、图片放大与内容显现
+- `styles.css`：响应式视觉样式与本地中文展示字体
+- `app.js`：阅读进度、图片放大与内容显现
 - `content/index.json`：期刊索引，自动更新时用来判断是否已有新一期
 - `content/ux-bites-*.json`：每一期的结构化中文内容
 - `assets/ux-bites-*/`：存入仓库的案例图片
+- `assets/fonts/`：随站点托管的得意黑字体及 SIL OFL 授权
 
 ## 发布
 
