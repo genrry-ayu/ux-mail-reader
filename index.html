@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="把 UX Bites 邮件整理成自然、易读的中文设计案例。"
+    />
+    <meta name="theme-color" content="#f3efe6" />
+    <title>UX 信箱｜中文产品体验阅读志</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true">
+      <span id="progressBar"></span>
+    </div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="返回顶部">
+        <span>UX</span>
+        <span>信箱</span>
+      </a>
+      <p class="site-kicker">来自邮件的产品体验观察</p>
+      <div class="header-meta">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span>更新于 2026.07.27</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="masthead" aria-labelledby="masthead-title">
+        <p class="eyebrow reveal">每周一封 · 中文重读</p>
+        <h1 id="masthead-title" class="reveal">
+          小小的交互，
+          <br />
+          <em>大大的理由。</em>
+        </h1>
+        <div class="masthead-bottom reveal">
+          <p>
+            从真实产品中收集值得停一下的 UX 细节。保留案例现场，
+            用自然中文讲清它为什么有效。
+          </p>
+          <a class="circle-link" href="#issue-131" aria-label="开始阅读最新一期">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 4v15M6 13l6 6 6-6" />
+            </svg>
+          </a>
+        </div>
+        <div class="masthead-mark" aria-hidden="true">131</div>
+      </section>
+
+      <div class="reading-layout">
+        <aside class="issue-index" aria-label="期刊目录">
+          <button class="index-toggle" type="button" aria-expanded="false">
+            <span>本期目录</span>
+            <span class="index-toggle-icon" aria-hidden="true">＋</span>
+          </button>
+          <div class="index-inner">
+            <p class="index-label">最新一期</p>
+            <a class="issue-row is-current" href="#issue-131">
+              <span>No. 131</span>
+              <time datetime="2026-07-27">07.27</time>
+            </a>
+            <nav class="case-nav" aria-label="本期案例">
+              <a href="#duolingo"><span>01</span>Duolingo</a>
+              <a href="#airbnb"><span>02</span>Airbnb</a>
+              <a href="#monzo"><span>03</span>Monzo</a>
+              <a href="#grab"><span>04</span>Grab</a>
+              <a href="#tome"><span>05</span>Tome</a>
+            </nav>
+            <div class="index-note">
+              <span>5 个案例</span>
+              <span>约 6 分钟</span>
+            </div>
+          </div>
+        </aside>
+
+        <article id="issue-131" class="issue">
+          <header class="issue-header reveal">
+            <div class="issue-number">No. 131</div>
+            <div>
+              <p class="issue-date">2026 年 7 月 27 日 · 周一</p>
+              <h2>Grab、Tome<br />与 Duolingo</h2>
+              <p class="issue-intro">
+                这期关注五个恰到好处的设计瞬间：把成就变得可分享、
+                为承诺增加分量、用他人的选择减少犹豫，以及让冷启动更像一次探索。
+              </p>
+            </div>
+          </header>
+
+          <section id="duolingo" class="case-section" data-section>
+            <div class="case-copy reveal">
+              <div class="case-meta">
+                <span>01</span>
+                <span>Duolingo</span>
+                <span>分享</span>
+              </div>
+              <h3>把“将死”<br />变成高光时刻</h3>
+              <p class="case-summary">
+                在 Duolingo 国际象棋中击败对手后，玩家可以分享一段短短的“将死”回放。
+                它分享的不是一张冷冰冰的结果图，而是决定胜负的那一刻。
+              </p>
+              <div class="takeaway">
+                <span>设计启发</span>
+                <p>值得分享的不是“我赢了”，而是“我是怎么赢的”。</p>
+              </div>
+              <a
+                class="source-link"
+                href="https://builtformars.com/ux-bites/sharing-your-checkmate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                查看英文原文
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19 19 5M8 5h11v11" />
+                </svg>
+              </a>
+            </div>
+            <figure class="case-figure reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-image="./assets/ux-bites-131/01-duolingo.jpg"
+                data-alt="Duolingo 国际象棋将死回放分享界面"
+                aria-label="放大查看 Duolingo 案例图片"
+              >
+                <img
+                  src="./assets/ux-bites-131/01-duolingo.jpg"
+                  alt="Duolingo 国际象棋将死回放分享界面"
+                  loading="eager"
+                />
+                <span>点击放大 ↗</span>
+              </button>
+              <figcaption>Duolingo 将获胜过程包装成可传播的内容。</figcaption>
+            </figure>
+          </section>
+
+          <section id="airbnb" class="case-section" data-section>
+            <div class="case-copy reveal">
+              <div class="case-meta">
+                <span>02</span>
+                <span>Airbnb</span>
+                <span>愉悦感</span>
+              </div>
+              <h3>你的马拉加之旅，<br />已经有了明信片</h3>
+              <p class="case-summary">
+                完成 Airbnb 预订后，“邀请同行者”页面会出现一张可以旋转的动态明信片。
+                原本偏事务性的邀请动作，因此有了旅行开始前的第一点兴奋。
+              </p>
+              <div class="takeaway">
+                <span>设计启发</span>
+                <p>在流程终点加入一件可把玩的东西，让完成感自然延长。</p>
+              </div>
+              <a
+                class="source-link"
+                href="https://builtformars.com/ux-bites/youre-off-to-malaga"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                查看英文原文
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19 19 5M8 5h11v11" />
+                </svg>
+              </a>
+            </div>
+            <figure class="case-figure reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-image="./assets/ux-bites-131/02-airbnb.jpg"
+                data-alt="Airbnb 预订完成后的动态明信片邀请页"
+                aria-label="放大查看 Airbnb 案例图片"
+              >
+                <img
+                  src="./assets/ux-bites-131/02-airbnb.jpg"
+                  alt="Airbnb 预订完成后的动态明信片邀请页"
+                  loading="lazy"
+                />
+                <span>点击放大 ↗</span>
+              </button>
+              <figcaption>Airbnb 用一张动态明信片把确认页变成旅程的开场。</figcaption>
+            </figure>
+          </section>
+
+          <section id="monzo" class="case-section" data-section>
+            <div class="case-copy reveal">
+              <div class="case-meta">
+                <span>03</span>
+                <span>Monzo</span>
+                <span>自我承诺</span>
+              </div>
+              <h3>给未来想反悔的<br />自己留一句话</h3>
+              <p class="case-summary">
+                开启 Monzo 的赌博交易限制时，用户可以写一段给未来自己的提醒。
+                当他们试图关闭限制，这段话会再次出现——由过去更清醒的自己发出。
+              </p>
+              <div class="takeaway">
+                <span>设计启发</span>
+                <p>与其让产品说教，不如让用户自己的声音成为关键时刻的阻力。</p>
+              </div>
+              <a
+                class="source-link"
+                href="https://builtformars.com/ux-bites/write-a-note-to-yourself"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                查看英文原文
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19 19 5M8 5h11v11" />
+                </svg>
+              </a>
+            </div>
+            <figure class="case-figure reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-image="./assets/ux-bites-131/03-monzo.jpg"
+                data-alt="Monzo 赌博交易限制中的自我提醒功能"
+                aria-label="放大查看 Monzo 案例图片"
+              >
+                <img
+                  src="./assets/ux-bites-131/03-monzo.jpg"
+                  alt="Monzo 赌博交易限制中的自我提醒功能"
+                  loading="lazy"
+                />
+                <span>点击放大 ↗</span>
+              </button>
+              <figcaption>Monzo 让一段自己写下的话，在真正困难的时刻回来。</figcaption>
+            </figure>
+          </section>
+
+          <section id="grab" class="case-section" data-section>
+            <div class="case-copy reveal">
+              <div class="case-meta">
+                <span>04</span>
+                <span>Grab</span>
+                <span>情境提示</span>
+              </div>
+              <h3>55% 的人<br />选择在这里下车</h3>
+              <p class="case-summary">
+                当目的地是机场时，Grab 会用“55% 的乘客选择这里”来推荐下车点。
+                在多个相似选项之间，它没有要求用户理解机场动线，而是给出一条来自真实选择的捷径。
+              </p>
+              <div class="takeaway">
+                <span>设计启发</span>
+                <p>社会认同最有用的时刻，是用户缺少情境知识、又必须马上做决定时。</p>
+              </div>
+              <a
+                class="source-link"
+                href="https://builtformars.com/ux-bites/55-preferred-this-drop-off"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                查看英文原文
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19 19 5M8 5h11v11" />
+                </svg>
+              </a>
+            </div>
+            <figure class="case-figure reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-image="./assets/ux-bites-131/04-grab.jpg"
+                data-alt="Grab 用用户选择比例推荐机场下车点"
+                aria-label="放大查看 Grab 案例图片"
+              >
+                <img
+                  src="./assets/ux-bites-131/04-grab.jpg"
+                  alt="Grab 用用户选择比例推荐机场下车点"
+                  loading="lazy"
+                />
+                <span>点击放大 ↗</span>
+              </button>
+              <figcaption>Grab 把陌生机场的复杂判断压缩成一条可信提示。</figcaption>
+            </figure>
+          </section>
+
+          <section id="tome" class="case-section" data-section>
+            <div class="case-copy reveal">
+              <div class="case-meta">
+                <span>05</span>
+                <span>Tome</span>
+                <span>新手引导</span>
+              </div>
+              <h3>拍一张书架，<br />不必一本本添加</h3>
+              <p class="case-summary">
+                Tome 在新手引导里允许用户直接拍摄书架。系统识别阅读清单后，
+                再据此推荐相关社区，让最费力的资料录入变成一个熟悉的拍照动作。
+              </p>
+              <div class="takeaway">
+                <span>设计启发</span>
+                <p>当冷启动需要大量输入，先问：现实世界里是否已经存在一份可识别的答案？</p>
+              </div>
+              <a
+                class="source-link"
+                href="https://builtformars.com/ux-bites/photograph-your-bookshelf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                查看英文原文
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19 19 5M8 5h11v11" />
+                </svg>
+              </a>
+            </div>
+            <figure class="case-figure reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-image="./assets/ux-bites-131/05-tome.jpg"
+                data-alt="Tome 通过拍摄书架识别阅读偏好"
+                aria-label="放大查看 Tome 案例图片"
+              >
+                <img
+                  src="./assets/ux-bites-131/05-tome.jpg"
+                  alt="Tome 通过拍摄书架识别阅读偏好"
+                  loading="lazy"
+                />
+                <span>点击放大 ↗</span>
+              </button>
+              <figcaption>Tome 用图像识别跳过了冗长的逐项录入。</figcaption>
+            </figure>
+          </section>
+
+          <footer class="issue-footer reveal">
+            <p class="footer-kicker">读完这一期</p>
+            <blockquote>
+              好体验往往不是多做一步，
+              <br />
+              而是替用户少想一步。
+            </blockquote>
+            <a class="back-to-top" href="#top">
+              回到顶部
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 20V5M6 11l6-6 6 6" />
+              </svg>
+            </a>
+          </footer>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="wordmark wordmark--footer" href="#top">
+          <span>UX</span>
+          <span>信箱</span>
+        </a>
+        <p>中文翻译、整理与设计启发。</p>
+      </div>
+      <p class="credit">
+        内容与案例图片来源
+        <a href="https://builtformars.com/" target="_blank" rel="noopener noreferrer">
+          Built for Mars
+        </a>
+        。本站仅整理邮件中原本可见的内容，版权归原作者所有。
+      </p>
+    </footer>
+
+    <dialog class="image-dialog" id="imageDialog">
+      <button class="dialog-close" type="button" aria-label="关闭大图">关闭 ×</button>
+      <img src="" alt="" />
+    </dialog>
+  </body>
+</html>

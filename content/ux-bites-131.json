@@ -1,0 +1,62 @@
+{
+  "issue": 131,
+  "date": "2026-07-27",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #131 — Grab, Tome & Duolingo",
+  "gmailMessageId": "19fa2540ad88c707",
+  "titleZh": "Grab、Tome 与 Duolingo",
+  "summaryZh": "五个恰到好处的设计瞬间：把成就变得可分享、为承诺增加分量、用他人的选择减少犹豫，以及让冷启动更像一次探索。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Duolingo",
+      "categoryZh": "分享",
+      "titleZh": "把“将死”变成高光时刻",
+      "bodyZh": "在 Duolingo 国际象棋中击败对手后，玩家可以分享一段短短的“将死”回放。它分享的不是一张冷冰冰的结果图，而是决定胜负的那一刻。",
+      "insightZh": "值得分享的不是“我赢了”，而是“我是怎么赢的”。",
+      "image": "assets/ux-bites-131/01-duolingo.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/sharing-your-checkmate"
+    },
+    {
+      "order": 2,
+      "brand": "Airbnb",
+      "categoryZh": "愉悦感",
+      "titleZh": "你的马拉加之旅，已经有了明信片",
+      "bodyZh": "完成 Airbnb 预订后，“邀请同行者”页面会出现一张可以旋转的动态明信片。原本偏事务性的邀请动作，因此有了旅行开始前的第一点兴奋。",
+      "insightZh": "在流程终点加入一件可把玩的东西，让完成感自然延长。",
+      "image": "assets/ux-bites-131/02-airbnb.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/youre-off-to-malaga"
+    },
+    {
+      "order": 3,
+      "brand": "Monzo",
+      "categoryZh": "自我承诺",
+      "titleZh": "给未来想反悔的自己留一句话",
+      "bodyZh": "开启 Monzo 的赌博交易限制时，用户可以写一段给未来自己的提醒。当他们试图关闭限制，这段话会再次出现——由过去更清醒的自己发出。",
+      "insightZh": "与其让产品说教，不如让用户自己的声音成为关键时刻的阻力。",
+      "image": "assets/ux-bites-131/03-monzo.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/write-a-note-to-yourself"
+    },
+    {
+      "order": 4,
+      "brand": "Grab",
+      "categoryZh": "情境提示",
+      "titleZh": "55% 的人选择在这里下车",
+      "bodyZh": "当目的地是机场时，Grab 会用“55% 的乘客选择这里”来推荐下车点。在多个相似选项之间，它没有要求用户理解机场动线，而是给出一条来自真实选择的捷径。",
+      "insightZh": "社会认同最有用的时刻，是用户缺少情境知识、又必须马上做决定时。",
+      "image": "assets/ux-bites-131/04-grab.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/55-preferred-this-drop-off"
+    },
+    {
+      "order": 5,
+      "brand": "Tome",
+      "categoryZh": "新手引导",
+      "titleZh": "拍一张书架，不必一本本添加",
+      "bodyZh": "Tome 在新手引导里允许用户直接拍摄书架。系统识别阅读清单后，再据此推荐相关社区，让最费力的资料录入变成一个熟悉的拍照动作。",
+      "insightZh": "当冷启动需要大量输入，先问：现实世界里是否已经存在一份可识别的答案？",
+      "image": "assets/ux-bites-131/05-tome.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/photograph-your-bookshelf"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}
