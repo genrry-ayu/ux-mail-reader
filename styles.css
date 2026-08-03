@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800;900&family=Noto+Serif+SC:wght@600;700;900&display=swap");
-
 :root {
   --paper: #f3efe6;
   --paper-deep: #e9e3d7;
@@ -8,8 +6,9 @@
   --line: #cfc8ba;
   --accent: #e45235;
   --white: #fffdf8;
-  --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --serif: "Noto Serif SC", "Songti SC", serif;
+  --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Noto Sans CJK SC", sans-serif;
+  --serif: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
 }
 
 * {
