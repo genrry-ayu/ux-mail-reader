@@ -77,10 +77,28 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  gap: 10px;
+  width: max-content;
+}
+
+.brand-symbol {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  transition: transform 180ms ease;
+}
+
+.brand-lockup:hover .brand-symbol {
+  transform: translateY(-2px);
+}
+
 .wordmark {
   display: inline-flex;
   align-items: stretch;
-  justify-self: start;
   width: max-content;
   border: 2px solid var(--ink);
   font-size: 13px;
@@ -929,6 +947,16 @@ img {
     grid-template-columns: 1fr auto;
     min-height: 70px;
     padding: 0 20px;
+  }
+
+  .brand-lockup {
+    gap: 8px;
+  }
+
+  .brand-symbol {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
   }
 
   .site-kicker {

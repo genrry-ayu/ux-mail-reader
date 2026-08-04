@@ -13,6 +13,7 @@
 - `content/index.json`：两个来源的最新邮件索引，自动更新时用来判断是否出现新内容
 - `content/ux-bites-*.json`：UX Bites 每一期的结构化中文内容
 - `content/nng-*.json`：Nielsen Norman Group 方法内容
+- `assets/ux-mail-logo.svg`：页头使用的本地信封标志
 - `assets/ux-bites-*/`：存入仓库的案例图片
 - `assets/fonts/`：随站点托管的得意黑字体及 SIL OFL 授权
 
