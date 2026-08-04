@@ -1,0 +1,62 @@
+{
+  "issue": 132,
+  "date": "2026-08-03",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #132 — The Email Special",
+  "gmailMessageId": "19fc663b3982ec44",
+  "titleZh": "邮件如何温柔地继续对话",
+  "summaryZh": "五种更克制的邮件设计：自动协调通知渠道、用暂停替代永久退订、保存未来意愿、恢复未完成动作，以及用可追赶的差距召回用户。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Slack",
+      "categoryZh": "通知协调",
+      "titleZh": "有了手机推送，就别再发一封邮件",
+      "bodyZh": "当用户开启手机推送后，Slack 会主动关闭同一工作区的邮件通知，避免同一件事在两个渠道里重复抵达，同时保留重新开启邮件的入口。",
+      "insightZh": "当多个渠道发送同一事件，产品应该主动协调，而不是让用户自己清理重复。",
+      "image": "assets/ux-bites-132/01-slack.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/auto-muting-duplicate-notifications"
+    },
+    {
+      "order": 2,
+      "brand": "CV Library",
+      "categoryZh": "暂停订阅",
+      "titleZh": "找到工作之后，先把邮件暂停半年",
+      "bodyZh": "求职邮件的价值往往只是阶段性的。CV Library 没有迫使已找到工作的用户永久退订，而是提供暂停六个月的选项，让提醒暂时退场，也让未来的关系仍可恢复。",
+      "insightZh": "对于周期性需求，“暂停”常常比“永久退出”更符合用户真实状态。",
+      "image": "assets/ux-bites-132/02-cv-library.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/snooze-these-emails"
+    },
+    {
+      "order": 3,
+      "brand": "The Guardian",
+      "categoryZh": "延迟承诺",
+      "titleZh": "今天不捐，也可以下个月再提醒我",
+      "bodyZh": "在捐款流程里，The Guardian 除了继续付款，还提供“下个月提醒我”。它没有把当下的拒绝视为彻底流失，而是把尚未准备好的意愿保存为一次未来承诺。",
+      "insightZh": "在拒绝发生时提供低压力的延后选项，能保留意愿，却不阻碍用户离开。",
+      "image": "assets/ux-bites-132/03-guardian.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/remind-me-next-month"
+    },
+    {
+      "order": 4,
+      "brand": "Asana",
+      "categoryZh": "未完成动作",
+      "titleZh": "写了一半的评论，别让它悄悄丢了",
+      "bodyZh": "如果用户在任务中写了评论却没有发布，Asana 会用邮件提醒，把任务、评论草稿和“完成评论”的动作一起带回来，让被打断的意图可以继续。",
+      "insightZh": "最有价值的提醒不是催促，而是准确恢复用户尚未完成的上下文。",
+      "image": "assets/ux-bites-132/04-asana.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/comment-left-as-a-draft"
+    },
+    {
+      "order": 5,
+      "brand": "Duolingo",
+      "categoryZh": "社会认同",
+      "titleZh": "八天没来，别人已经多学了 16 节",
+      "bodyZh": "当用户连续几天没有学习，Duolingo 不只说明离开了多久，还展示同期普通学习者完成的课程数，用可见的进度差距制造重新开始的动力。",
+      "insightZh": "比较能唤回行动，但只有当差距具体、可追赶时，它才是动力而不是羞辱。",
+      "image": "assets/ux-bites-132/05-duolingo.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/a-retention-boosting-email"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

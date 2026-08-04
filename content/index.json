@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-27T06:47:24Z",
+  "updatedAt": "2026-08-03T06:50:49Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "19fa2540ad88c707",
-      "latestDate": "2026-07-27"
+      "latestMessageId": "19fc663b3982ec44",
+      "latestDate": "2026-08-03"
     },
     {
       "id": "nng",
@@ -18,8 +18,16 @@
       "latestDate": "2024-02-26"
     }
   ],
-  "latestIssue": 131,
+  "latestIssue": 132,
   "issues": [
+    {
+      "issue": 132,
+      "date": "2026-08-03",
+      "title": "邮件如何温柔地继续对话",
+      "slug": "ux-bites-132",
+      "gmailMessageId": "19fc663b3982ec44",
+      "caseCount": 5
+    },
     {
       "issue": 131,
       "date": "2026-07-27",
