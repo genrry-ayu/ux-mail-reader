@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-03T06:50:49Z",
+  "updatedAt": "2026-08-10T06:58:57Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "19fc663b3982ec44",
-      "latestDate": "2026-08-03"
+      "latestMessageId": "19fea77a6020962c",
+      "latestDate": "2026-08-10"
     },
     {
       "id": "nng",
@@ -18,8 +18,16 @@
       "latestDate": "2024-02-26"
     }
   ],
-  "latestIssue": 132,
+  "latestIssue": 133,
   "issues": [
+    {
+      "issue": 133,
+      "date": "2026-08-10",
+      "title": "把权限与付费，放回用户正需要的时刻",
+      "slug": "ux-bites-133",
+      "gmailMessageId": "19fea77a6020962c",
+      "caseCount": 5
+    },
     {
       "issue": 132,
       "date": "2026-08-03",

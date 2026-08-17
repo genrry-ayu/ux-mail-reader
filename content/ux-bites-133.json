@@ -1,0 +1,62 @@
+{
+  "issue": 133,
+  "date": "2026-08-10",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #133 — The Flighty Special",
+  "gmailMessageId": "19fea77a6020962c",
+  "titleZh": "把权限与付费，放回用户正需要的时刻",
+  "summaryZh": "Flighty 用随机航班演示 Pro、在延误发生时索取通知权限、用欢迎回来恢复关键能力、识别剪贴板里的预订码，并让用户主动订阅折扣。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Flighty",
+      "categoryZh": "受控试用",
+      "titleZh": "先追踪一趟陌生航班，再决定要不要付费",
+      "bodyZh": "Flighty 让用户选择一趟随机航班，免费体验 Pro 的完整追踪与提醒；航班抵达后自动删除。用户能亲手感受高级功能，却不会把试用变成一项可长期占用的免费服务。",
+      "insightZh": "好的试用让价值可以被体验，同时用真实任务边界控制成本。",
+      "image": "assets/ux-bites-133/01-pro-trial.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/experience-flighty-pro"
+    },
+    {
+      "order": 2,
+      "brand": "Flighty",
+      "categoryZh": "情境权限",
+      "titleZh": "航班真的延误时，再邀请用户打开提醒",
+      "bodyZh": "当用户查询到一趟已延误的航班，Flighty 才询问是否接收延误、取消和登机口变化提醒。通知权限不再是启动时的抽象要求，而是眼前问题的直接解决方案。",
+      "insightZh": "权限请求最好的解释，是用户此刻正需要它完成的事情。",
+      "image": "assets/ux-bites-133/02-delay-alerts.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/turning-delays-into-permission"
+    },
+    {
+      "order": 3,
+      "brand": "Flighty",
+      "categoryZh": "回归引导",
+      "titleZh": "很久没回来，只恢复最有价值的两件事",
+      "bodyZh": "用户长期离开或重新安装后，Flighty 用一张 Welcome Back 卡片，集中提示重新开启航班提醒和日历同步，而不是重新播放完整的新手引导。",
+      "insightZh": "回归用户不需要从头学习，只需要恢复最可能失效的关键能力。",
+      "image": "assets/ux-bites-133/03-welcome-back.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/a-welcome-return"
+    },
+    {
+      "order": 4,
+      "brand": "Flighty",
+      "categoryZh": "剪贴板捷径",
+      "titleZh": "预订码已经复制，就别让用户再输入一次",
+      "bodyZh": "当剪贴板里已有预订参考号，Flighty 会在航班详情中直接提供 Paste，一次点击即可关联预订码，省去切换应用、记忆和手动录入。",
+      "insightZh": "系统已经知道的输入，不应该再让用户重复搬运。",
+      "image": "assets/ux-bites-133/04-booking-reference.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/paste-your-booking-reference"
+    },
+    {
+      "order": 5,
+      "brand": "Flighty",
+      "categoryZh": "主动订阅",
+      "titleZh": "先让用户主动等折扣，再发送促销",
+      "bodyZh": "非 Pro 用户可以明确登记折扣提醒，Flighty 同时承诺每年最多发送两封邮件。用户主动表达意愿后，未来的优惠触达更像履行请求，而不是突然打扰。",
+      "insightZh": "让用户先选择想接收的营销，能同时提升期待感与信任。",
+      "image": "assets/ux-bites-133/05-discount-alerts.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/opt-in-for-discounts"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}
