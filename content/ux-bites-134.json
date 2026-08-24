@@ -1,0 +1,62 @@
+{
+  "issue": 134,
+  "date": "2026-08-17",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #134 — Seatfrog, Lego & Shopify",
+  "gmailMessageId": "1a00eaadb0683148",
+  "titleZh": "让用户愿意继续：先练一次，再给一个具体理由",
+  "summaryZh": "Seatfrog 用零风险练习解释竞价，Lego 让分类背景也参与表达，Apple 把系统更新写成明确收益，Shopify 延后优惠决定，Duolingo 则用好奇心推动下一步。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Seatfrog",
+      "categoryZh": "安全练习",
+      "titleZh": "先练一次竞价，再让用户真的出价",
+      "bodyZh": "机票升舱竞价并不是人人熟悉的操作。Seatfrog 在真实拍卖入口旁提供不收费、无风险的 Practice Round，让用户用相同界面体验倒计时、最高出价和领先状态，再决定是否参与真正的竞价。",
+      "insightZh": "复杂交互最有效的说明，常常是一段不会造成损失的亲手练习。",
+      "image": "assets/ux-bites-134/01-practice-auction.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/try-a-practice-auction"
+    },
+    {
+      "order": 2,
+      "brand": "Lego",
+      "categoryZh": "分类识别",
+      "titleZh": "分类页不只换标题，也换一组积木剪影",
+      "bodyZh": "Lego 商店会为不同主题分类配置专属的积木背景：指环王页面出现城堡轮廓，蝙蝠侠页面则换成哥谭式天际线。装饰没有抢走商品注意力，却让用户一眼感到自己进入了不同世界。",
+      "insightZh": "与内容语义相关的装饰，既能制造愉悦，也能悄悄加强位置感。",
+      "image": "assets/ux-bites-134/02-lego-bricks.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/a-banner-of-bricks"
+    },
+    {
+      "order": 3,
+      "brand": "Apple",
+      "categoryZh": "升级理由",
+      "titleZh": "别只说请更新，把升级后能得到什么写出来",
+      "bodyZh": "Apple 没有只提示用户更新 watchOS，而是直接说明更新后的收益：可以在 iPhone 上查看训练指标，并获得更多运动类型。维护成本因此被连接到一个当下可理解的产品价值。",
+      "insightZh": "要求用户承担升级成本时，行动按钮旁应该先回答“这对我有什么用”。",
+      "image": "assets/ux-bites-134/03-watchos-benefit.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/update-watchos-to-unlock"
+    },
+    {
+      "order": 4,
+      "brand": "Shopify",
+      "categoryZh": "延后决定",
+      "titleZh": "现在不领优惠，就在结账时再提醒一次",
+      "bodyZh": "欢迎优惠弹层没有把次要选项写成彻底拒绝，而是提供“结账时提醒我”。等用户真正进入结账页，Shopify 再展示可节省的具体金额，并保留是否登记邮箱的选择。",
+      "insightZh": "延后决定只有在更相关的时刻兑现、且仍然容易拒绝时，才是在帮助用户。",
+      "image": "assets/ux-bites-134/04-shopify-reminder.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/better-than-a-no"
+    },
+    {
+      "order": 5,
+      "brand": "Duolingo",
+      "categoryZh": "好奇缺口",
+      "titleZh": "朋友没解开的题，猜猜是谁",
+      "bodyZh": "Duolingo 在国际象棋谜题开始前透露：你的某位朋友也没能解开，并邀请用户猜是谁。它没有提前揭晓答案，而是把社交线索变成一个很短、很近的好奇缺口，推动用户先完成谜题。",
+      "insightZh": "好奇心适合推动近在眼前的动作，不该被用来藏起用户完成任务所需的信息。",
+      "image": "assets/ux-bites-134/05-duolingo-curiosity.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/duolingos-curiosity-gap"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

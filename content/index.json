@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-10T06:58:57Z",
+  "updatedAt": "2026-08-17T07:41:13Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "19fea77a6020962c",
-      "latestDate": "2026-08-10"
+      "latestMessageId": "1a00eaadb0683148",
+      "latestDate": "2026-08-17"
     },
     {
       "id": "nng",
@@ -18,8 +18,16 @@
       "latestDate": "2024-02-26"
     }
   ],
-  "latestIssue": 133,
+  "latestIssue": 134,
   "issues": [
+    {
+      "issue": 134,
+      "date": "2026-08-17",
+      "title": "让用户愿意继续：先练一次，再给一个具体理由",
+      "slug": "ux-bites-134",
+      "gmailMessageId": "1a00eaadb0683148",
+      "caseCount": 5
+    },
     {
       "issue": 133,
       "date": "2026-08-10",
