@@ -3,6 +3,215 @@
   "sender": "alertbox@nngroup.com",
   "items": [
     {
+      "gmailMessageId": "1a010c6d484f1887",
+      "date": "2026-08-17",
+      "subject": "One AI Output Is an Example, Not an Evaluation | Psychological Ownership: Own the Right Things",
+      "topic": "AI 评估",
+      "title": "一次漂亮输出，不等于 AI 已通过评估",
+      "summary": "生成式 AI 对同一输入可能给出不同质量的答案。一次成功只能证明系统偶尔能做到，无法说明它面对真实输入时有多可靠。",
+      "insight": "用代表性输入、重复运行和置信区间评估 AI，不用一次演示下结论。",
+      "author": "Raluca Budiu",
+      "publishedAt": "2026-08-14",
+      "sourceUrl": "https://www.nngroup.com/articles/eval-ai-output/",
+      "chapters": [
+        {
+          "label": "先承认波动",
+          "title": "同一个问题，可以得到不同质量的答案",
+          "summary": "语言模型是非确定性系统，同一输入的措辞、正确性和完整度都会在多次运行之间变化。因此，一次好答案只是一个样本；它既不能代表系统的平均水平，也无法说明错误会出现在哪里。"
+        },
+        {
+          "label": "设计评估",
+          "title": "像量化 UX 研究一样准备任务与样本",
+          "summary": "先选择覆盖真实场景、难度和边界条件的代表性输入，再让系统对每个输入重复运行。输入数量回答“它能覆盖多少真实问题”，重复次数回答“面对同一问题是否稳定”，两者不能互相替代。"
+        },
+        {
+          "label": "定义指标",
+          "title": "先写清什么叫可接受，再计算整体表现",
+          "summary": "在运行之前定义答案必须满足的条件，例如正确、包含例外、符合政策并给出下一步。随后报告可接受率、平均表现、置信区间，以及输入之间和重复运行之间的差异；同时记录模型版本、提示、设置、工具和评估日期。"
+        },
+        {
+          "label": "用于决策",
+          "title": "一次运行可以探索，不能支撑发布与采购",
+          "summary": "早期探索可以只跑一次，但只要结果会影响发布、采购、流程调整或效果声明，就需要多输入、多次运行和不确定性报告。若成本高到无法重复，正确结论不是“已经验证”，而是证据仍然不足。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "1a010c6d484f1887",
+      "date": "2026-08-17",
+      "subject": "One AI Output Is an Example, Not an Evaluation | Psychological Ownership: Own the Right Things",
+      "topic": "设计协作",
+      "title": "别把“我的设计”当成需要保卫的东西",
+      "summary": "心理所有权能带来投入感，也会让设计师把方案、原型和反馈当成对自我的评价。关键不是放弃责任，而是把所有权转向共同目标和可控制的过程。",
+      "insight": "拥有协作过程与结果责任，不拥有一个不可挑战的方案。",
+      "author": "Evan Sunwall",
+      "publishedAt": "2026-08-14",
+      "sourceUrl": "https://www.nngroup.com/articles/psychological-ownership/",
+      "chapters": [
+        {
+          "label": "识别来源",
+          "title": "控制、熟悉与投入，会把作品变成“我的”",
+          "summary": "心理所有权来自能够控制某件事、深入了解它，以及投入大量时间和精力。设计工作天然具备这三个条件，所以人很容易把研究结论、原型或方案视为自我的延伸。"
+        },
+        {
+          "label": "看见风险",
+          "title": "投入感一旦放错地方，就会变成防御",
+          "summary": "所有权能提升主动性，也可能导致领地意识、拒绝替代方案、抵触反馈和不愿分享信息。当设计师更在意作者身份，而不是方案能否成功时，协作质量会迅速下降。"
+        },
+        {
+          "label": "转移目标",
+          "title": "把“我的原型”改写成“我们的共同问题”",
+          "summary": "在概念变得坚硬之前邀请业务和技术同事参与，用“我们”和“我们的目标”描述工作，并同时讨论用户、实现与商业约束。要拥有的是高质量协作过程，而不是独占创意来源。"
+        },
+        {
+          "label": "处理反馈",
+          "title": "把质疑当成信息，不当成对个人的攻击",
+          "summary": "收到反对时先暂停辩护，分清哪些结果真正可控。设计师可以对研究质量、问题定义、验证方式和沟通负责，却无法独占最终决策；把注意力转回共同结果，反馈才更容易进入方案。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "19fecba5ff8fc0e0",
+      "date": "2026-08-10",
+      "subject": "When an AI Tool Is Worth Keeping | Dogfooding",
+      "topic": "AI 工具评估",
+      "title": "AI 工具值不值得留，用 PROVE 而不是第一印象",
+      "summary": "PROVE 用问题匹配、风险、输出质量、速度和使用体验五个维度，比较一个 AI 工具在一项具体任务里是否真的优于现有做法。",
+      "insight": "先固定任务与基线，再讨论工具是否值得采用。",
+      "author": "Caleb Sponheim",
+      "publishedAt": "2026-08-07",
+      "sourceUrl": "https://www.nngroup.com/articles/prove-framework/",
+      "chapters": [
+        {
+          "label": "Problem Alignment",
+          "title": "从反复发生的任务开始，不从新工具开始",
+          "summary": "先明确工具要改善的具体任务、频率和成功标准，再检查能力是否匹配。AI 不是在真空中竞争，它必须和当前流程的质量、速度与摩擦进行比较。"
+        },
+        {
+          "label": "Risk",
+          "title": "先确认数据能否安全地交给它",
+          "summary": "在投入评估前核对组织批准、隐私条款和输入敏感度。若任务涉及研究参与者、客户资料、未发布策略或专有代码，风险本身就可能让该工具不适合当前任务。"
+        },
+        {
+          "label": "Output Quality",
+          "title": "拿真实工作做基线，不拿演示样例做基线",
+          "summary": "选取自己已经完成过的真实产出，比较 AI 版本是否更好、相当或足够好。质量标准必须随任务风险变化：内部草稿可以宽松，面向客户的建议则需要更高准确性和表达要求。"
+        },
+        {
+          "label": "Velocity × Experience",
+          "title": "计算完整耗时，也计算每次都会重复的摩擦",
+          "summary": "速度要包含设置、提示、复核、改错、重排和系统间搬运，而不是只看生成秒数；体验则要区分一次性学习成本和长期重复摩擦。一个输出很快、却每次增加多个交接步骤的工具，未必真正提效。"
+        },
+        {
+          "label": "形成决定",
+          "title": "给出可解释、可复查的临时结论",
+          "summary": "说明评估了哪个工具与任务、质量和时间证据是什么、准备继续试用还是停用，以及下一步要验证的条件。结论只适用于当前任务，并应随着工具、流程和能力变化重新评估。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "19fecba5ff8fc0e0",
+      "date": "2026-08-10",
+      "subject": "When an AI Tool Is Worth Keeping | Dogfooding",
+      "topic": "研究方法",
+      "title": "Dogfooding 能发现问题，但不能冒充用户研究",
+      "summary": "内部员工使用自家产品可以暴露崩溃、断点和明显缺口，但员工已理解术语和数据模型，无法代表第一次接触产品的真实用户。",
+      "insight": "内部使用补充可靠性证据，代表性用户回答真实体验。",
+      "author": "Therese Fessenden",
+      "publishedAt": "2026-08-07",
+      "sourceUrl": "https://www.nngroup.com/articles/dogfooding/",
+      "chapters": [
+        {
+          "label": "方法定义",
+          "title": "让团队日常使用产品，寻找真实运行中的断点",
+          "summary": "Dogfooding 是组织内部持续使用自己开发的产品，通过更多环境和使用路径发现崩溃、流程缺口与缺失能力。它适合扩大可靠性反馈，并让开发团队直接感受产品问题。"
+        },
+        {
+          "label": "不是表演",
+          "title": "领导露面使用产品，不等于质量控制",
+          "summary": "如果内部使用主要为了向媒体或投资人展示忠诚，它更接近品牌表演。有效的 dogfooding 必须有真实任务、持续使用和明确反馈闭环，即使没有外界观看也会照常进行。"
+        },
+        {
+          "label": "分清边界",
+          "title": "QA、用户研究与内部使用回答不同问题",
+          "summary": "QA 系统地验证功能与异常路径，用户研究观察代表性用户能否理解并完成目标，dogfooding 则提供员工在半真实情境中的可靠性和可用性意见。员工受到知识诅咒影响，成功使用不能证明普通用户也会成功。"
+        },
+        {
+          "label": "组合使用",
+          "title": "在 AI 时代增加数据点，但不能替代外部视角",
+          "summary": "非确定性 AI 的可靠性更难判断，内部多角色使用可以发现输出波动与明显失败。但最终仍要问当前需要谁的视角：团队只能说明内部怎么看，用户研究才说明用户实际经历了什么。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "19fa4a1b50cee148",
+      "date": "2026-07-27",
+      "subject": "UX Knowledge to Inform AI-Generated Design | A Concrete Definition of “Product Sense”",
+      "topic": "AI 设计",
+      "title": "AI 生成界面之前，先让它读懂你的用户",
+      "summary": "AI 会默认生成训练数据里的平均界面。UX-context design 把用户研究、交互规则和使用情境整理成机器可读的持续上下文，让生成结果符合真实用户与组织标准。",
+      "insight": "当 AI 参与设计，UX 交付物要从静态报告变成持续可读的上下文。",
+      "author": "Tony Alicea",
+      "publishedAt": "2026-07-24",
+      "sourceUrl": "https://www.nngroup.com/articles/ux-context-design/",
+      "chapters": [
+        {
+          "label": "重新定义交付物",
+          "title": "没有上下文，AI 只会生成平均答案",
+          "summary": "模型知道常见软件长什么样，却不知道你的用户、领域、设计标准和研究发现。UX-context design 的核心，是把组织已经知道和希望遵守的内容整理成 AI 每次生成时都能看到的上下文。"
+        },
+        {
+          "label": "新的使用者",
+          "title": "当任何人都能生成界面，AI 也成了研究的读者",
+          "summary": "产品经理和工程师使用 AI 时也会产生布局、文案和错误状态等设计决策。与其限制谁能设计，更实际的做法是确保所有生成都能访问相同的用户知识和体验标准。"
+        },
+        {
+          "label": "AI-ready",
+          "title": "把研究结论写成约束，而不是只做成展示",
+          "summary": "面向人的 persona 和报告包含大量用于说服和记忆的包装；模型更需要底层推理。假想的 UX.md 可以收纳研究综合、交互规则、术语表、用户模型和使用环境，并引用 DESIGN.md 与实际组件。"
+        },
+        {
+          "label": "持续维护",
+          "title": "不再一次性交接，而是和产品一起演化",
+          "summary": "UX 上下文应靠近代码，被不同工具反复读取，并随新研究、产品变化和 AI 错误持续更新。它的效果不是看文档是否漂亮，而是观察生成质量是否可测量地改善。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "19fa4a1b50cee148",
+      "date": "2026-07-27",
+      "subject": "UX Knowledge to Inform AI-Generated Design | A Concrete Definition of “Product Sense”",
+      "topic": "产品判断",
+      "title": "产品感不是天赋，是完整走过决策闭环",
+      "summary": "真正的产品感来自识别当前问题与过去经验是否匹配，并预测类似方案会带来什么结果；只有持续跟踪决策结果，直觉才会变得可靠。",
+      "insight": "判断力来自问题、方案、结果与复盘的完整闭环。",
+      "author": "Tanner Kohler",
+      "publishedAt": "2026-07-24",
+      "sourceUrl": "https://www.nngroup.com/articles/product-sense-definition/",
+      "chapters": [
+        {
+          "label": "具体定义",
+          "title": "产品感是模式匹配，不是模糊的品味",
+          "summary": "它要求人识别当前问题与过去成功或失败是否相似，估计类似方案对目标结果的影响，并在必要时调整方案。仅仅看大量产品、收集灵感或拥有同理心，并不足以形成可靠判断。"
+        },
+        {
+          "label": "判断有效性",
+          "title": "熟悉感有时可靠，有时会制造过度自信",
+          "summary": "高有效情境与过去经验高度相似，可以较放心地借用模式；低有效情境缺少清晰线索，应主动收集证据；邪恶情境表面熟悉却存在关键差异，最容易让错误经验被反复强化。"
+        },
+        {
+          "label": "完整闭环",
+          "title": "做出决定之后，要留下来看结果",
+          "summary": "产品判断需要经历问题评估、方案选择、实施、结果测量和复盘。如果人只接需求、出方案就离开，便无法知道自己的推理是否成立，也就无法形成可迁移的经验。"
+        },
+        {
+          "label": "刻意练习",
+          "title": "先写下预测，再用真实结果校正直觉",
+          "summary": "在结果出现前记录假设和预期指标，随后测量真实影响，复盘哪些判断成立、哪些失败，以及当前情境最像哪次经验。强产品感也包括知道何时不该相信第一直觉。"
+        }
+      ]
+    },
+    {
       "gmailMessageId": "18de60ca93f4ba6a",
       "date": "2024-02-26",
       "subject": "Card Sorting vs. Tree Testing",
