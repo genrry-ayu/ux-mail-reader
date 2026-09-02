@@ -1,0 +1,62 @@
+{
+  "issue": 135,
+  "date": "2026-08-24",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #135 — The Flight Special",
+  "gmailMessageId": "1a0329094248a312",
+  "titleZh": "让选择更容易：在用户犹豫的地方补一条线索",
+  "summaryZh": "Aviasales 主动推荐筛选条件，Bounce 把行李数量翻译成储物柜尺寸，Hopper 标出缩短转机的代价，定位与价格提示也都只在真正相关的时刻出现。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Aviasales",
+      "categoryZh": "动态筛选",
+      "titleZh": "结果已经出现，再推荐真正有用的筛选项",
+      "bodyZh": "Aviasales 不要求用户先理解所有筛选条件。展示可用票价之后，它会根据当前结果动态推荐几项能明显缩小选择范围的条件，帮助用户从浏览进入比较。",
+      "insightZh": "筛选项不必等用户寻找；当选择开始变难时，系统可以按当前结果主动推荐。",
+      "image": "assets/ux-bites-135/01-aviasales-filters.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/need-help-deciding"
+    },
+    {
+      "order": 2,
+      "brand": "Bounce",
+      "categoryZh": "情境默认值",
+      "titleZh": "先问有多少行李，再替用户选好柜子",
+      "bodyZh": "临时行李寄存服务 Bounce 先让用户列出要寄存的行李，再依据数量与类型预选合适的储物柜尺寸。用户不必先理解陌生的规格，也能获得一个可检查的默认答案。",
+      "insightZh": "让用户描述熟悉的需求，系统负责把它翻译成陌生规格。",
+      "image": "assets/ux-bites-135/02-bounce-locker.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/this-is-the-size-you-need"
+    },
+    {
+      "order": 3,
+      "brand": "Hopper",
+      "categoryZh": "取舍提示",
+      "titleZh": "建议排除长转机，也把需要多付的钱写清楚",
+      "bodyZh": "用户查看航班时，Hopper 会主动建议排除过长的中转，并同时展示采用这个条件需要增加多少费用。更舒服的旅程因此不再是抽象承诺，而是一笔可以判断的取舍。",
+      "insightZh": "建议用户收紧选项时，同时展示它换来的价值与增加的成本。",
+      "image": "assets/ux-bites-135/03-hopper-layover.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/dynamic-layover-suggestions"
+    },
+    {
+      "order": 4,
+      "brand": "Aviasales",
+      "categoryZh": "定位修正",
+      "titleZh": "附近机场不对，再解释如何提高定位精度",
+      "bodyZh": "Aviasales 推荐附近机场时，没有一开始就索取更精确的位置权限。只有当推荐可能不准确时，它才提示用户可以启用精确定位来修正结果。",
+      "insightZh": "更高权限应在错误已经可见时提出，并直接解释它能修正什么。",
+      "image": "assets/ux-bites-135/04-aviasales-location.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/location-settings-in-context"
+    },
+    {
+      "order": 5,
+      "brand": "Kayak",
+      "categoryZh": "隐藏结果",
+      "titleZh": "筛选藏起了更便宜的票，主动告诉用户",
+      "bodyZh": "当当前筛选条件把更便宜的航班排除在结果之外时，Kayak 会明确提醒用户，而不是让低价选项静默消失。用户可以继续保留偏好，也能看见这次选择的机会成本。",
+      "insightZh": "筛选隐藏了明显更优的结果时，系统应暴露机会成本，而不是只服从条件。",
+      "image": "assets/ux-bites-135/05-kayak-hidden-price.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/cheaper-options-are-hidden"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

@@ -1,0 +1,62 @@
+{
+  "issue": 136,
+  "date": "2026-08-31",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #136 — Vans, Tiimo & Finalist",
+  "gmailMessageId": "1a056aad9a618fd6",
+  "titleZh": "让下一步更轻松：用玩耍、延后与自动整理减少阻力",
+  "summaryZh": "Vans 把折扣变成小游戏奖励，Finalist 用实体笔记本隐喻解释产品并自动整理日历，Tiimo 允许稍后提醒，Lego 则让收藏清单直接显示累计成本。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Vans",
+      "categoryZh": "互动奖励",
+      "titleZh": "折扣码不直接送，先在房间里找出 Vans",
+      "bodyZh": "Vans 把领取折扣码变成一个短小游戏：用户需要在虚拟房间里找到品牌商品，完成后才获得真实优惠。奖励与品牌探索发生在同一个动作里。",
+      "insightZh": "奖励被装进有主题的互动时，品牌记忆与下一步行动可以同时发生。",
+      "image": "assets/ux-bites-136/01-vans-minigame.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/play-the-vans-minigame"
+    },
+    {
+      "order": 2,
+      "brand": "Finalist",
+      "categoryZh": "引导隐喻",
+      "titleZh": "把首次引导做成一本真的会翻页的笔记本",
+      "bodyZh": "规划应用 Finalist 的首次引导不像普通轮播，而像一本放在桌上的实体笔记本。每一页都在三维空间里翻动，让产品的核心对象直接成为学习界面。",
+      "insightZh": "引导形式可以模拟产品的核心对象，让学习过程本身也表达品牌。",
+      "image": "assets/ux-bites-136/02-finalist-notebook.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/a-physical-notebook"
+    },
+    {
+      "order": 3,
+      "brand": "Tiimo",
+      "categoryZh": "柔性提醒",
+      "titleZh": "现在很忙，就在 30 分钟后再提醒一次",
+      "bodyZh": "Tiimo 邀请用户回顾当天行程时，没有把选择限制为立即处理或彻底关闭。用户可以承认自己此刻没空，并让提醒在 30 分钟后重新出现。",
+      "insightZh": "提醒要允许用户承认当下忙碌，并提供轻量延后，而不是逼迫立即完成。",
+      "image": "assets/ux-bites-136/03-tiimo-reminder.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/im-busy-right-now"
+    },
+    {
+      "order": 4,
+      "brand": "Lego",
+      "categoryZh": "累计反馈",
+      "titleZh": "收藏清单不只数件数，也算出总成本",
+      "bodyZh": "Lego 的收藏清单会直接汇总全部商品价格，让用户在准备生日礼物或控制预算时，不必逐项心算。一个显而易见的总数，把保存行为连接到了真实决定。",
+      "insightZh": "收藏列表不仅保存条目，也应帮助用户理解累计成本等决策后果。",
+      "image": "assets/ux-bites-136/04-lego-total.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/keeping-track-of-your-totals"
+    },
+    {
+      "order": 5,
+      "brand": "Finalist",
+      "categoryZh": "信息压缩",
+      "titleZh": "把大片空闲时间折叠起来，日历会更清楚",
+      "bodyZh": "为了让日程更容易浏览，Finalist 会自动合并连续的大段空闲时间。视图不再为没有事件的时段保留同等空间，用户能更快看见真正需要安排和处理的内容。",
+      "insightZh": "可以压缩没有信息的空白，把有限的视觉注意力留给真正需要决策的内容。",
+      "image": "assets/ux-bites-136/05-finalist-cleanup.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/automatically-cleaning-your-calendar"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

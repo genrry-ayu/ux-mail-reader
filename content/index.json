@@ -1,25 +1,41 @@
 {
-  "updatedAt": "2026-08-24T01:22:23Z",
+  "updatedAt": "2026-09-02T02:02:54Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a00eaadb0683148",
-      "latestDate": "2026-08-17"
+      "latestMessageId": "1a056aad9a618fd6",
+      "latestDate": "2026-08-31"
     },
     {
       "id": "nng",
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a010c6d484f1887",
-      "latestDate": "2026-08-17"
+      "latestMessageId": "1a058e01b61462da",
+      "latestDate": "2026-09-01"
     }
   ],
-  "latestIssue": 134,
+  "latestIssue": 136,
   "issues": [
+    {
+      "issue": 136,
+      "date": "2026-08-31",
+      "title": "让下一步更轻松：用玩耍、延后与自动整理减少阻力",
+      "slug": "ux-bites-136",
+      "gmailMessageId": "1a056aad9a618fd6",
+      "caseCount": 5
+    },
+    {
+      "issue": 135,
+      "date": "2026-08-24",
+      "title": "让选择更容易：在用户犹豫的地方补一条线索",
+      "slug": "ux-bites-135",
+      "gmailMessageId": "1a0329094248a312",
+      "caseCount": 5
+    },
     {
       "issue": 134,
       "date": "2026-08-17",
