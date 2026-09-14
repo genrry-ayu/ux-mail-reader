@@ -3,6 +3,74 @@
   "sender": "alertbox@nngroup.com",
   "items": [
     {
+      "gmailMessageId": "1a07cec593e827a4",
+      "date": "2026-09-08",
+      "subject": "Using AI for UX Work: Study Guide | We Still Need Long-Form Copy",
+      "topic": "AI 工作流",
+      "title": "别把 UX 流程交给 AI，要把它放进能被监督的环节",
+      "summary": "NN/g 汇总了 AI 在 UX 工作中的适用位置：它能辅助规划、原型、分析、写作与协作，但不能接管整条流程，也不能替代真实用户证据。稳定价值来自判断、批评、情境组织和叙事能力。",
+      "insight": "从一项边界清楚的任务开始，让 AI 扩大能力，不让它代替责任。",
+      "author": "Tanner Kohler",
+      "publishedAt": "2025-10-21",
+      "sourceUrl": "https://www.nngroup.com/articles/ai-work-study-guide/",
+      "chapters": [
+        {
+          "label": "确定角色",
+          "title": "把 AI 当作受监督的助手，不是整条流程的接管者",
+          "summary": "现阶段，把完整 UX 工作流交给 AI 并没有证明更高效。更可靠的方式，是由 UX 从业者设定目标、提供情境、检查输出并承担决策责任，让 AI 扩大已有能力。"
+        },
+        {
+          "label": "设计与原型",
+          "title": "用它加速表达和反馈，不用它跳过验证",
+          "summary": "AI 可以帮助快速生成原型、提示框架、模拟表格和图表，让团队更早讨论具体方案。但速度也会放大错误与虚假细节，因此产物仍要经过专业评审和用户反馈。"
+        },
+        {
+          "label": "研究边界",
+          "title": "规划和分析可以提速，真实用户证据不能被生成",
+          "summary": "AI 适合协助研究计划、访谈提纲、主题聚类与报告草稿；合成用户和数字孪生最多只能补充探索，不能替代具体产品、环境与人群中的真实研究。"
+        },
+        {
+          "label": "写作与协作",
+          "title": "生成很强，声音、判断与引导仍属于人",
+          "summary": "AI 在改写、总结和构思方面价值明显，也能成为工作坊里的创意伙伴。但过度依赖会磨平语气和观点，团队仍需用真实材料、清晰规则与人工批评保持质量。"
+        },
+        {
+          "label": "长期能力",
+          "title": "工具会变化，情境组织、品味和叙事不会快速过期",
+          "summary": "UX 角色会随 AI 改变，但理解人、提出正确问题、判断证据、连接业务结果和讲清故事仍然稀缺。应该用小实验持续学习，而不是把职业价值绑定到某个工具。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "1a07cec593e827a4",
+      "date": "2026-09-08",
+      "subject": "Using AI for UX Work: Study Guide | We Still Need Long-Form Copy",
+      "topic": "内容设计",
+      "title": "注意力变短，不代表所有内容都该变短",
+      "summary": "长文仍适合承载复杂说明、建立信任，并帮助搜索与 AI 问答系统理解内容。关键不是堆字，而是让用户能先扫描结构，再按需要进入细节。",
+      "insight": "内容长度跟随任务复杂度；越长，越要用结构降低阅读成本。",
+      "author": "Taylor Dykes",
+      "publishedAt": "2026-08-31",
+      "sourceUrl": "https://www.nngroup.com/videos/we-still-need-long-form-copy/",
+      "chapters": [
+        {
+          "label": "选择长度",
+          "title": "复杂、高风险和需要建立信任的任务，不能只靠短句",
+          "summary": "用户并非一概拒绝长内容。当决定涉及较多条件、后果或信任判断时，他们需要足够背景来形成理解；强行压缩会把必要信息变成猜测。"
+        },
+        {
+          "label": "支持发现",
+          "title": "完整内容也为搜索和 AI 答案提供可理解的语境",
+          "summary": "长文能覆盖更完整的概念、术语和关系，帮助搜索引擎与 AI 问答系统识别页面解决了什么问题。它的价值不只发生在逐字阅读时，也发生在内容被发现和引用时。"
+        },
+        {
+          "label": "降低成本",
+          "title": "长文必须可扫描，让用户自己决定读到多深",
+          "summary": "摘要、清晰标题、项目符号、重点标记、提示框和有用视觉都能建立层级。用户可以先获得全局，再跳到相关段落，而不是被迫从头读到尾。"
+        }
+      ]
+    },
+    {
       "gmailMessageId": "1a058e01b61462da",
       "date": "2026-09-01",
       "subject": "The Custodial Era of UX: Cleaning Up After AI | AI Can't Replace Real Research in Empathy Mapping",

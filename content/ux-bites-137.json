@@ -1,0 +1,62 @@
+{
+  "issue": 137,
+  "date": "2026-09-07",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #137 — Gojek, Letaido & Pinterest",
+  "gmailMessageId": "1a07a9bedd352e38",
+  "titleZh": "让动作贴近当下：在选择、试用与整理时补足线索",
+  "summaryZh": "Gojek 在车型旁直接说明行李容量，Letaido 让用户先在样例工作区试用，Tiimo 帮助整理未完成任务并用微动效解释时间变化，Pinterest 则把次要动作收进长按菜单。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Gojek",
+      "categoryZh": "情境信息",
+      "titleZh": "去机场前，先告诉你这辆车能装几件行李",
+      "bodyZh": "用户预订前往机场的行程时，Gojek 会在车型选项旁动态显示可容纳的行李数量。原本抽象的车型差异，被翻译成此刻真正影响选择的容量信息。",
+      "insightZh": "当情境改变选择标准时，把对应的判断线索直接放在选项旁边。",
+      "image": "assets/ux-bites-137/01-gojek-luggage.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/how-much-luggage-can-you-bring"
+    },
+    {
+      "order": 2,
+      "brand": "Letaido",
+      "categoryZh": "沙盒试用",
+      "titleZh": "不用先连接工具，也能在样例工作区里试一遍",
+      "bodyZh": "在要求订阅和接入真实工具之前，Letaido 提供一个已经准备好的演示工作区。用户可以先操作核心功能、理解产品价值，再决定是否承担配置成本。",
+      "insightZh": "先用可操作的样例证明价值，再向用户索取数据、权限和配置时间。",
+      "image": "assets/ux-bites-137/02-letaido-sandbox.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/try-it-without-connecting-your-tools"
+    },
+    {
+      "order": 3,
+      "brand": "Tiimo",
+      "categoryZh": "任务整理",
+      "titleZh": "今天没做完的事，一次搬到明天或指定日期",
+      "bodyZh": "用户回顾当天计划时，Tiimo 会识别仍未完成的任务，并让用户把它们整体移到明天或自选日期。收尾不再意味着逐条重排，也不会让未完成事项悄悄消失。",
+      "insightZh": "在周期结束处主动收拢遗留任务，并提供批量、可撤销的下一步。",
+      "image": "assets/ux-bites-137/03-tiimo-reschedule.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/helping-you-rearrange-your-day"
+    },
+    {
+      "order": 4,
+      "brand": "Pinterest",
+      "categoryZh": "手势菜单",
+      "titleZh": "长按再拖动，把一圈次要动作藏在手势里",
+      "bodyZh": "Pinterest 用长按加拖动呼出环形菜单，让常用动作围绕触点出现，并在选中方向时显示文字标题。界面保持干净，同时减少手指在屏幕上的移动距离。",
+      "insightZh": "隐藏操作可以换取整洁，但必须在手势过程中持续给出方向与文字反馈。",
+      "image": "assets/ux-bites-137/04-pinterest-menu.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/pinterests-drag-and-hold-menu"
+    },
+    {
+      "order": 5,
+      "brand": "Tiimo",
+      "categoryZh": "状态动效",
+      "titleZh": "快进计时器时，让时间真的从表盘里飞散出去",
+      "bodyZh": "用户快进计时器时，Tiimo 会让细小形状从表盘中散落。这个克制的微动效既回应了手势，也把抽象的时间跳跃变成可感知的状态变化。",
+      "insightZh": "微动效最有价值的时刻，是它既带来愉悦，又解释了系统刚刚发生什么。",
+      "image": "assets/ux-bites-137/05-tiimo-timer.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/fast-forwarding-the-timer"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}
