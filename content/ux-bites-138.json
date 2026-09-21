@@ -1,0 +1,62 @@
+{
+  "issue": 138,
+  "date": "2026-09-14",
+  "source": "Built for Mars",
+  "sourceEmailTitle": "UX Bites #138 — ElevenReader, DuckDuckGo & EasyJet",
+  "gmailMessageId": "1a09f3251fe9ebc0",
+  "titleZh": "在限制与切换之间，把仍能做的事摆到眼前",
+  "summaryZh": "ElevenReader 与 Spotify 在离线时直接引导用户进入已下载内容，DuckDuckGo 用强烈动效确认清除数据并把跨应用设置步骤留在眼前，Airbnb 则根据正在进行的旅程推荐下一段停留。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "ElevenReader",
+      "categoryZh": "离线状态",
+      "titleZh": "没网时，不只说失败，也告诉你还有什么能用",
+      "bodyZh": "用户离线打开 ElevenReader 时，页面不会停在一句错误提示，而是说明已下载内容仍在资料库，并直接提供前往资料库的按钮。受限状态因此变成一条仍可继续的路径。",
+      "insightZh": "异常状态不要只解释失败，也要把用户带到此刻仍能完成的任务。",
+      "image": "assets/ux-bites-138/01-elevenreader-offline.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/steering-you-to-your-downloaded-content"
+    },
+    {
+      "order": 2,
+      "brand": "Spotify",
+      "categoryZh": "搜索降级",
+      "titleZh": "搜索失效时，把入口转向已经下载的内容",
+      "bodyZh": "用户在离线状态尝试搜索时，Spotify 明确说明当前没有连接，同时把“下载内容”作为首要替代入口。系统没有假装搜索仍然可用，而是把目标改写成当下可以完成的动作。",
+      "insightZh": "能力降级时，优先展示最接近原目标的可用替代方案。",
+      "image": "assets/ux-bites-138/02-spotify-downloads.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/try-your-downloads-folder"
+    },
+    {
+      "order": 3,
+      "brand": "DuckDuckGo",
+      "categoryZh": "结果反馈",
+      "titleZh": "清除浏览数据时，让整个屏幕真的烧起来",
+      "bodyZh": "DuckDuckGo 在用户删除浏览记录后，用火焰吞没整个界面。这个夸张但短暂的反馈，把抽象的“数据已清除”变成清楚、可感知且符合品牌个性的完成时刻。",
+      "insightZh": "重要动作值得更明确的完成反馈，但动效必须服务于状态确认。",
+      "image": "assets/ux-bites-138/03-duckduckgo-fire.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/deleting-your-internet-history"
+    },
+    {
+      "order": 4,
+      "brand": "Airbnb",
+      "categoryZh": "情境推荐",
+      "titleZh": "旅程还没结束，就给出顺路延住的下一站",
+      "bodyZh": "用户正处于一段 Airbnb 旅程时，首页会根据当前地点动态出现延长停留或前往附近地区的推荐。推荐不是脱离情境的促销，而是接在用户此刻的行程之后。",
+      "insightZh": "推荐要紧贴正在发生的任务，让下一步像自然延伸而不是额外打扰。",
+      "image": "assets/ux-bites-138/04-airbnb-extend.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/why-not-extend-your-trip"
+    },
+    {
+      "order": 5,
+      "brand": "DuckDuckGo",
+      "categoryZh": "跨应用引导",
+      "titleZh": "跳到系统设置后，操作视频仍浮在眼前",
+      "bodyZh": "用户把 DuckDuckGo 设为默认浏览器时，需要离开应用进入 iOS 设置。DuckDuckGo 将教学视频以浮层形式留在系统设置页上，让用户边看边做，不必在两个应用之间反复切换。",
+      "insightZh": "跨应用任务最容易丢失上下文，让说明跟着用户走比让用户记住步骤更可靠。",
+      "image": "assets/ux-bites-138/05-duckduckgo-video.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/embedded-video-instructions"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

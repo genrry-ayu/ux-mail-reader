@@ -1,25 +1,33 @@
 {
-  "updatedAt": "2026-09-14T01:01:21Z",
+  "updatedAt": "2026-09-21T01:01:40Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a07a9bedd352e38",
-      "latestDate": "2026-09-07"
+      "latestMessageId": "1a09f3251fe9ebc0",
+      "latestDate": "2026-09-14"
     },
     {
       "id": "nng",
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a07cec593e827a4",
-      "latestDate": "2026-09-08"
+      "latestMessageId": "1a0a0f8f8bcd7c5c",
+      "latestDate": "2026-09-15"
     }
   ],
-  "latestIssue": 137,
+  "latestIssue": 138,
   "issues": [
+    {
+      "issue": 138,
+      "date": "2026-09-14",
+      "title": "在限制与切换之间，把仍能做的事摆到眼前",
+      "slug": "ux-bites-138",
+      "gmailMessageId": "1a09f3251fe9ebc0",
+      "caseCount": 5
+    },
     {
       "issue": 137,
       "date": "2026-09-07",

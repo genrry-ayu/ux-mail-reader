@@ -3,6 +3,84 @@
   "sender": "alertbox@nngroup.com",
   "items": [
     {
+      "gmailMessageId": "1a0a0f8f8bcd7c5c",
+      "date": "2026-09-15",
+      "subject": "AI Can Help Write an Article, but It Can’t Stand Behind It | Test Complex Interactions Earlier with AI",
+      "topic": "AI 编辑",
+      "title": "AI 可以参与写作，但不能替人承担判断",
+      "summary": "NN/g 会用 AI 改写、压缩、适配格式并挑战论证，但不会把最终编辑判断交出去。AI 可以指出疑点，不能证明事实正确；每一篇发布内容仍由真正理解材料的人决定是否成立，并承担责任。",
+      "insight": "可以外包表达上的重复劳动，不能外包对内容是否值得发布的判断。",
+      "author": "Raluca Budiu",
+      "publishedAt": "2026-09-11",
+      "sourceUrl": "https://www.nngroup.com/articles/ai-editorial-process/",
+      "chapters": [
+        {
+          "label": "保留流程",
+          "title": "AI 进入编辑过程，不代表原有质量门槛可以消失",
+          "summary": "NN/g 的文章仍要经历选题判断、逻辑与 UX 准确性检查、文字编辑和多轮修改。生成式 AI 提高了局部效率，但作者与两位编辑共同确认内容可发布的机制没有改变。"
+        },
+        {
+          "label": "交给机器",
+          "title": "清晰度、字符限制和跨渠道改写适合自动化",
+          "summary": "AI 擅长把段落改得更简洁、生成固定长度摘要、套入研究指南等刚性格式，也能从课程、报告或视频中提取材料并适配新渠道。人仍需检查压缩是否丢失语义。"
+        },
+        {
+          "label": "辅助批评",
+          "title": "让 AI 挑出事实与论证疑点，不让它替你下结论",
+          "summary": "AI 可以标记可能的误引、过度概括、矛盾和隐含假设，帮助编辑把注意力放到值得复核的位置。但它的提示不是认证，作者必须回到原始来源核对并决定是否修改。"
+        },
+        {
+          "label": "人工取舍",
+          "title": "把建议放进自己的判断里，而不是照单全收",
+          "summary": "编辑可以先形成自己的评估，再让 AI 挑战或补充。机器有时会发现遗漏，也会给出不适用的建议；真正的工作是理解每条建议，保留能强化论证的部分，丢弃其余内容。"
+        },
+        {
+          "label": "承担责任",
+          "title": "最终署名属于能理解、评估并为内容负责的人",
+          "summary": "写作方式可以包含提示、口述、讨论和 AI 改写，但专家必须完成足够的智力工作，判断观点是否值得发布、论证是否成立。AI 能参与过程，却不能成为作者或承担编辑责任。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "1a0a0f8f8bcd7c5c",
+      "date": "2026-09-15",
+      "subject": "AI Can Help Write an Article, but It Can’t Stand Behind It | Test Complex Interactions Earlier with AI",
+      "topic": "AI 原型",
+      "title": "复杂交互别等开发完成，先用 AI 做到可测试",
+      "summary": "筛选器、仪表盘和对话式 AI 有大量状态，静态原型只能覆盖少数顺畅路径。AI 原型的价值不是把设计决策交给模型，而是更快做出带真实数据与交互的可运行版本，让用户在开发前暴露边缘情况。",
+      "insight": "先决定研究需要验证什么，再让 AI 加速实现；看起来像产品的原型仍然只是原型。",
+      "author": "Megan Chan",
+      "publishedAt": "2026-09-11",
+      "sourceUrl": "https://www.nngroup.com/articles/test-earlier-with-ai/",
+      "chapters": [
+        {
+          "label": "选择时机",
+          "title": "简单问题继续用静态原型，复杂行为才需要真实交互",
+          "summary": "当研究只关心信息层级或视觉方向时，静态原型仍然高效；当界面包含多种状态、复杂筛选、真实数据或非确定性回答时，可运行原型才能观察用户真正如何操作。"
+        },
+        {
+          "label": "扩大证据",
+          "title": "真实交互会暴露顺畅路径之外的问题",
+          "summary": "Ramp 的费用规则编辑器与对话式 AI 原型允许参与者使用脱敏数据和自由输入，因此发现了编辑追踪混乱、意外请求处理等问题。Purdue 的筛选研究也显示，参与者面对可运行原型会给出更具体的反馈。"
+        },
+        {
+          "label": "准备输入",
+          "title": "先定义研究问题、交互边界、设计决策与数据",
+          "summary": "在打开工具前，先写清原型必须支持哪些行为、状态和边缘情况，再确定布局与交互规则。真实数据要遵守组织与工具的数据政策；不适合上传时，用符合条件的合成数据替代。"
+        },
+        {
+          "label": "生成迭代",
+          "title": "把设计说明与数据写进具体提示，再反复修正",
+          "summary": "详细提示应包含布局、层级、交互、错误与空状态，并附上数据、草图或现有设计。工具生成第一版后，设计师仍要修改界面与行为，最后先做小规模试跑，避免原型本身干扰研究。"
+        },
+        {
+          "label": "避免错觉",
+          "title": "高保真不等于生产可用，设计判断仍属于人",
+          "summary": "AI 原型可能看起来完整，却包含错误模式、混乱层级和多余重复。它的作用是让团队更早学习，不是直接上线；需要有设计经验的人评审，并明确区分研究原型与生产代码。"
+        }
+      ]
+    },
+    {
       "gmailMessageId": "1a07cec593e827a4",
       "date": "2026-09-08",
       "subject": "Using AI for UX Work: Study Guide | We Still Need Long-Form Copy",
