@@ -1,0 +1,63 @@
+{
+  "source": "UX Bites",
+  "sender": "peter@builtformars.com",
+  "gmailMessageId": "1a0c2ef21bf69764",
+  "issue": 139,
+  "date": "2026-09-21",
+  "subject": "UX Bites #139 — Transit, 12Go & Flighty",
+  "titleZh": "把比较、预览与下一步放进用户正在做的事里",
+  "summaryZh": "Transit 把组合路线排进时间轴，12Go 用座位实拍降低想象成本，Sunlitt 让用户直接上手 3D 模型，Flighty 提前补上返程搜索，Sentry 则让首页标题本身成为一次可玩的演示。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Transit",
+      "categoryZh": "路线比较",
+      "titleZh": "把多种交通组合排进同一条时间轴",
+      "bodyZh": "Transit 将不同交通方式及其组合放进可滚动时间轴，让出发、换乘与到达时间沿同一尺度排列。用户无需在多个方案页之间来回切换，就能比较整体行程。",
+      "insightZh": "比较方案时，统一尺度比堆更多信息更重要。",
+      "image": "assets/ux-bites-139/01-transit-timeline.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/showing-travel-options-in-a-timeline"
+    },
+    {
+      "order": 2,
+      "brand": "12Go",
+      "categoryZh": "座位预览",
+      "titleZh": "买票前，先看清火车、飞机和巴士里面长什么样",
+      "bodyZh": "用户浏览 12Go 的交通选项时，可以直接看到对应车厢或客舱的内部照片。抽象的座位等级因此变成可以判断空间、舒适度与期待的真实画面。",
+      "insightZh": "当文字等级难以形成预期时，用接近真实体验的证据帮助选择。",
+      "image": "assets/ux-bites-139/02-12go-seating.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/seating-previews"
+    },
+    {
+      "order": 3,
+      "brand": "Sunlitt",
+      "categoryZh": "互动上手",
+      "titleZh": "Onboarding 不先讲功能，让用户直接拨动太阳",
+      "bodyZh": "Sunlitt 在 onboarding 开头展示可立即操作的 3D 太阳轨迹。用户不是被动观看教程，而是在第一次接触时就通过操作理解产品最核心的空间模型。",
+      "insightZh": "复杂能力先让用户玩一次，比先解释一遍更容易建立理解。",
+      "image": "assets/ux-bites-139/03-sunlitt-3d.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/showing-off-their-3d-modelling"
+    },
+    {
+      "order": 4,
+      "brand": "Flighty",
+      "categoryZh": "意图补全",
+      "titleZh": "搜过出发行程后，下一次搜索主动补上返程",
+      "bodyZh": "当用户已经添加去程航班，Flighty 会在后续搜索里动态提供“添加返程”入口。系统利用已经知道的行程结构，减少用户重复表达完整意图。",
+      "insightZh": "已知上下文可以用来补全下一步，但入口仍应让用户自主选择。",
+      "image": "assets/ux-bites-139/04-flighty-return.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/pre-empting-your-return-flight"
+    },
+    {
+      "order": 5,
+      "brand": "Sentry",
+      "categoryZh": "互动叙事",
+      "titleZh": "标题里那个“坏掉”的词，点一下会自己修好",
+      "bodyZh": "Sentry 首页主标题故意让一个词呈现故障状态，用户点击后它会恢复正常。产品关于错误与修复的价值，不再只是文案描述，而被做成一个可亲手触发的瞬间。",
+      "insightZh": "营销互动最有效的时候，是它用一次动作演示了产品本身。",
+      "image": "assets/ux-bites-139/05-sentry-hero.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/an-interactive-hero-h1"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

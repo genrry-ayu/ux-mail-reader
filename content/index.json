@@ -1,25 +1,33 @@
 {
-  "updatedAt": "2026-09-21T01:01:40Z",
+  "updatedAt": "2026-09-28T01:01:42Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a09f3251fe9ebc0",
-      "latestDate": "2026-09-14"
+      "latestMessageId": "1a0c2ef21bf69764",
+      "latestDate": "2026-09-21"
     },
     {
       "id": "nng",
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a0a0f8f8bcd7c5c",
-      "latestDate": "2026-09-15"
+      "latestMessageId": "1a0c5057db717b13",
+      "latestDate": "2026-09-22"
     }
   ],
-  "latestIssue": 138,
+  "latestIssue": 139,
   "issues": [
+    {
+      "issue": 139,
+      "date": "2026-09-21",
+      "title": "把比较、预览与下一步放进用户正在做的事里",
+      "slug": "ux-bites-139",
+      "gmailMessageId": "1a0c2ef21bf69764",
+      "caseCount": 5
+    },
     {
       "issue": 138,
       "date": "2026-09-14",

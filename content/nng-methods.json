@@ -3,6 +3,79 @@
   "sender": "alertbox@nngroup.com",
   "items": [
     {
+      "gmailMessageId": "1a0c5057db717b13",
+      "date": "2026-09-22",
+      "subject": "The 3 Roles of Context for AI Agents | Designing AI Products and Features: Study Guide",
+      "topic": "Agent 上下文",
+      "title": "别只优化提示词，先把 Agent 的上下文分成三层",
+      "summary": "真正决定 Agent 输出质量的，往往不是一句提示词，而是它能否拿到合适的上下文。全局、局部与环境信息承担不同角色，也需要不同的整理、存储和筛选方式。",
+      "insight": "跨任务的规则要稳定，当前项目的材料要聚焦，持续流入的信息要可筛选。",
+      "author": "Tanner Kohler",
+      "publishedAt": "2026-09-18",
+      "sourceUrl": "https://www.nngroup.com/articles/3-agent-context-roles/",
+      "chapters": [
+        {
+          "label": "先看上下文",
+          "title": "提示词只是入口，真正的能力来自可调用的上下文库",
+          "summary": "同一句请求，在有无用户偏好、项目资料、组织规则和历史决策时会得到完全不同的结果。与其不断把提示写得更长，不如先判断 Agent 需要哪些信息，以及这些信息应该怎样被持续维护。"
+        },
+        {
+          "label": "全局上下文",
+          "title": "把跨任务稳定生效的规则放在同一层",
+          "summary": "用户资料、品牌规范、治理规则、通用最佳实践和参考标准通常跨项目成立。它们适合被主动整理并稳定保存，让 Agent 每次工作时都能继承一致的边界与判断依据。"
+        },
+        {
+          "label": "局部上下文",
+          "title": "当前项目只保留与眼前任务直接相关的材料",
+          "summary": "任务清单、研究报告、对话摘要、变更记录和数据库条目属于某个项目或阶段。局部上下文应足够完整，又不能被其他项目的材料稀释，结束后还要能归档或提炼。"
+        },
+        {
+          "label": "环境上下文",
+          "title": "邮件、聊天和分析数据有价值，但必须允许筛选",
+          "summary": "环境上下文来自邮箱、会议记录、Slack、分析工具和外部文章等持续流入的原始信息。它通常通过 API 或 MCP 接入，覆盖面广却噪声很高，需要让 Agent 按任务检索，而不是一次性全部塞入。"
+        },
+        {
+          "label": "角色迁移",
+          "title": "信息会在三层之间移动，存储方式也要跟着改变",
+          "summary": "一段 Slack 讨论被选中后可以变成当前项目的局部上下文；反复使用的项目经验又可能沉淀为全局规则。团队要定期决定哪些内容值得提升、保留或淘汰，才能让提示更短、结果更稳定。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "1a0c5057db717b13",
+      "date": "2026-09-22",
+      "subject": "The 3 Roles of Context for AI Agents | Designing AI Products and Features: Study Guide",
+      "topic": "AI 产品设计",
+      "title": "别先加 AI，先证明它解决了真实问题",
+      "summary": "AI 能力本身不是用户价值。产品团队要先验证问题与使用情境，再帮助用户表达意图、理解输出并控制自动化程度，而不是把聊天框当作所有场景的默认答案。",
+      "insight": "先验证问题与价值，再设计输入、反馈、解释和控制。",
+      "author": "Tanner Kohler",
+      "publishedAt": "2026-09-18",
+      "sourceUrl": "https://www.nngroup.com/articles/designing-ai-study-guide/",
+      "chapters": [
+        {
+          "label": "验证价值",
+          "title": "从真实问题开始，而不是从“这里能不能加 AI”开始",
+          "summary": "团队应先确认用户需要完成什么、现有流程为什么不足，以及 AI 是否真的比非 AI 方案更合适。范围越具体，越容易评估价值、失败方式与上线后的责任边界；聊天也不该被视为唯一界面。"
+        },
+        {
+          "label": "帮助表达",
+          "title": "不要要求所有用户都学会写完美提示词",
+          "summary": "用户往往不知道模型能做什么，也难以一次说清目标。提示建议、示例、按钮、复选框和其他结构化控件可以与自然语言组合，逐步揭示能力并减少从空白输入开始的负担。"
+        },
+        {
+          "label": "设计交互",
+          "title": "输出要可扫描，能力要可发现，自动化要可控制",
+          "summary": "AI 结果需要清楚、简洁并解释关键依据；重要能力不能隐藏在等待用户猜测的聊天框里。产品还要处理错误、不确定性、数据使用和自主程度，让用户知道系统做了什么、为何这样做，以及如何介入。"
+        },
+        {
+          "label": "判断时效",
+          "title": "把长期原则和随技术变化的观察分开",
+          "summary": "AI 能力与市场叙事变化很快，某些界面经验可能很快过时。团队应区分稳定的人机交互原则、当前模型限制和短期流行模式，持续用研究校正产品，而不是把一次成功案例当作永久规则。"
+        }
+      ]
+    },
+    {
       "gmailMessageId": "1a0a0f8f8bcd7c5c",
       "date": "2026-09-15",
       "subject": "AI Can Help Write an Article, but It Can’t Stand Behind It | Test Complex Interactions Earlier with AI",
