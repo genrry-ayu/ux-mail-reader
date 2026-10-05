@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T01:01:42Z",
+  "updatedAt": "2026-10-05T01:00:47Z",
   "sources": [
     {
       "id": "ux-bites",
@@ -14,8 +14,8 @@
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a0c5057db717b13",
-      "latestDate": "2026-09-22"
+      "latestMessageId": "1a0e91321ee4d7ad",
+      "latestDate": "2026-09-29"
     }
   ],
   "latestIssue": 139,
