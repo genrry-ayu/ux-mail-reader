@@ -1,0 +1,63 @@
+{
+  "source": "UX Bites",
+  "sender": "peter@builtformars.com",
+  "gmailMessageId": "1a10ae961a673ccd",
+  "issue": 141,
+  "date": "2026-10-05",
+  "subject": "UX Bites #141 — Monzo, Granola & Gmail",
+  "titleZh": "别泛泛提醒：在刚发生的情境里，给出具体下一步",
+  "summaryZh": "Monzo 在顾客刚买完 Greggs 后说明套餐本可免单，Granola 在注册时解释工作邮箱的价值，Gmail 把验证码提到顶部，Apple 接住换机后的旧设备处理，YouTube 则把分享链接变成开启对话的时机。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Monzo",
+      "categoryZh": "情境促销",
+      "titleZh": "买完 Greggs 后，才告诉你这份点心本可以免费",
+      "bodyZh": "Monzo 付费套餐每周提供一份免费 Greggs 点心。当未订阅用户刚在 Greggs 完成付款，动态信息流会立即出现促销卡片，把刚发生的消费与套餐权益直接对应起来。",
+      "insightZh": "促销最有说服力的时刻，是用户刚亲眼看到它能替自己省下什么。",
+      "image": "assets/ux-bites-141/01-monzo-greggs.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/you-could-have-got-this-for-free"
+    },
+    {
+      "order": 2,
+      "brand": "Granola",
+      "categoryZh": "注册引导",
+      "titleZh": "用个人邮箱注册时，先解释工作邮箱为什么更合适",
+      "bodyZh": "当用户用 Gmail 账户注册 Granola，产品不会直接拦截，而是结合会议记录的使用场景，说明工作邮箱能带来更完整的体验，并提供切换入口。",
+      "insightZh": "要求用户更换输入前，先把这次更换会改善什么说清楚。",
+      "image": "assets/ux-bites-141/02-granola-work-email.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/this-is-better-with-your-work-email"
+    },
+    {
+      "order": 3,
+      "brand": "Gmail",
+      "categoryZh": "验证码提取",
+      "titleZh": "把一次性验证码提到邮件顶部，点一下就能复制",
+      "bodyZh": "Gmail 会识别邮件中的一次性验证码，把它抽取到页面顶部的独立组件。用户无需在模板、说明和页脚之间寻找，也不用手动选中字符。",
+      "insightZh": "当内容的目的只剩下一次动作，就把那次动作从内容里提出来。",
+      "image": "assets/ux-bites-141/03-gmail-otp.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/highlighting-verification-codes"
+    },
+    {
+      "order": 4,
+      "brand": "Apple",
+      "categoryZh": "换机后续",
+      "titleZh": "新机设置完成后，主动接住旧 iPhone 的下一步",
+      "bodyZh": "用户完成新 iPhone 设置后，系统推断旧设备很可能需要抹除或处理，于是在设置页展示相关提示。原本容易被忘记的收尾动作，被放到换机流程刚结束的位置。",
+      "insightZh": "完成主任务不等于旅程结束，紧接着出现的收尾工作也值得被设计。",
+      "image": "assets/ux-bites-141/04-apple-old-iphone.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/whats-next-for-this-iphone"
+    },
+    {
+      "order": 5,
+      "brand": "YouTube",
+      "categoryZh": "消息邀请",
+      "titleZh": "收到 YouTube 链接时，把观看变成开启对话的时机",
+      "bodyZh": "当别人发来 YouTube 链接，应用会提示用户允许消息功能，从而在 YouTube 内与发送者建立对话。权限请求不再孤立出现，而是依附在一个真实的分享关系上。",
+      "insightZh": "新社交能力先借用已有互动关系，会比空白入口更容易被理解。",
+      "image": "assets/ux-bites-141/05-youtube-messaging.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/will-you-allow-messaging"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

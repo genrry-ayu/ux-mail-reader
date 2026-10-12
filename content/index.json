@@ -1,25 +1,33 @@
 {
-  "updatedAt": "2026-10-05T01:00:47Z",
+  "updatedAt": "2026-10-12T01:00:41Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a0c2ef21bf69764",
-      "latestDate": "2026-09-21"
+      "latestMessageId": "1a10ae961a673ccd",
+      "latestDate": "2026-10-05"
     },
     {
       "id": "nng",
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a0e91321ee4d7ad",
-      "latestDate": "2026-09-29"
+      "latestMessageId": "1a10d1e40d0f904a",
+      "latestDate": "2026-10-06"
     }
   ],
-  "latestIssue": 139,
+  "latestIssue": 141,
   "issues": [
+    {
+      "issue": 141,
+      "date": "2026-10-05",
+      "title": "别泛泛提醒：在刚发生的情境里，给出具体下一步",
+      "slug": "ux-bites-141",
+      "gmailMessageId": "1a10ae961a673ccd",
+      "caseCount": 5
+    },
     {
       "issue": 139,
       "date": "2026-09-21",
