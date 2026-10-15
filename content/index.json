@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T01:00:41Z",
+  "updatedAt": "2026-10-15T07:07:23Z",
   "sources": [
     {
       "id": "ux-bites",
@@ -7,7 +7,10 @@
       "role": "cases",
       "sender": "peter@builtformars.com",
       "latestMessageId": "1a10ae961a673ccd",
-      "latestDate": "2026-10-05"
+      "latestDate": "2026-10-05",
+      "latestCaseStudyMessageId": "1a110103f1e57c1d",
+      "latestCaseStudyDate": "2026-10-06",
+      "latestCaseStudyIssue": 95
     },
     {
       "id": "nng",
@@ -19,6 +22,17 @@
     }
   ],
   "latestIssue": 141,
+  "caseStudies": [
+    {
+      "issue": 95,
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-05",
+      "title": "第一次使用只是试一试，别让测试反过来伤害产品",
+      "slug": "bfm-95",
+      "gmailMessageId": "1a110103f1e57c1d",
+      "sourceUrl": "https://builtformars.com/case-studies/granola"
+    }
+  ],
   "issues": [
     {
       "issue": 141,
