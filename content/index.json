@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-15T07:07:23Z",
+  "updatedAt": "2026-10-19T00:55:23Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a10ae961a673ccd",
-      "latestDate": "2026-10-05",
+      "latestMessageId": "1a12f05165fd3799",
+      "latestDate": "2026-10-12",
       "latestCaseStudyMessageId": "1a110103f1e57c1d",
       "latestCaseStudyDate": "2026-10-06",
       "latestCaseStudyIssue": 95
@@ -21,7 +21,7 @@
       "latestDate": "2026-10-06"
     }
   ],
-  "latestIssue": 141,
+  "latestIssue": 142,
   "caseStudies": [
     {
       "issue": 95,
@@ -34,6 +34,14 @@
     }
   ],
   "issues": [
+    {
+      "issue": 142,
+      "date": "2026-10-12",
+      "title": "把提醒、解释与试用放到用户正需要确认的地方",
+      "slug": "ux-bites-142",
+      "gmailMessageId": "1a12f05165fd3799",
+      "caseCount": 5
+    },
     {
       "issue": 141,
       "date": "2026-10-05",

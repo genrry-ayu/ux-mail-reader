@@ -1,0 +1,63 @@
+{
+  "source": "UX Bites",
+  "sender": "peter@builtformars.com",
+  "gmailMessageId": "1a12f05165fd3799",
+  "issue": 142,
+  "date": "2026-10-12",
+  "subject": "UX Bites #142 — Granola, Google & Grok",
+  "titleZh": "把提醒、解释与试用放到用户正需要确认的地方",
+  "summaryZh": "Granola 让验证码跨过应用切换继续可见，Google Maps 为自动改道提供语音解释，Apple Sports 用球队颜色生成比赛背景，AllTrails 让高级功能先免费试一次，Google Meet 则在聊天页主动收起遮挡内容的视频。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Granola",
+      "categoryZh": "验证码提醒",
+      "titleZh": "切到电话键盘后，验证码仍然跟着你",
+      "bodyZh": "Granola 需要用户通过电话输入六位验证码来授权通话功能。流程开始后，它会连续发送推送，让验证码在用户切到全屏通话和拨号键盘时仍留在眼前。",
+      "insightZh": "当流程迫使用户跨应用切换，关键信息也应该跟着移动。",
+      "image": "assets/ux-bites-142/01-granola-push-code.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/cleverly-using-push-notifications"
+    },
+    {
+      "order": 2,
+      "brand": "Google Maps",
+      "categoryZh": "改道解释",
+      "titleZh": "路线突然改变时，可以直接听为什么",
+      "bodyZh": "当 Google Maps 为避开拥堵而重新规划路线，用户可以点击“听取更多”。Gemini 会用语音解释改道原因，让驾驶者无需离开导航或阅读更多文字。",
+      "insightZh": "自动决策不必总打断用户，但要在疑问出现时提供低成本解释。",
+      "image": "assets/ux-bites-142/02-google-maps-detour.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/listen-to-your-detour"
+    },
+    {
+      "order": 3,
+      "brand": "Apple Sports",
+      "categoryZh": "动态视觉",
+      "titleZh": "不额外添加装饰，球队颜色就是比赛背景",
+      "bodyZh": "Apple Sports 从两支球队的代表色生成带纹理的动态渐变，作为比赛页面背景。视觉身份直接来自当前对阵信息，不需要再叠加一套通用装饰。",
+      "insightZh": "先从当前内容提取视觉语言，再决定是否需要额外装饰。",
+      "image": "assets/ux-bites-142/03-apple-sports-gradient.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/dynamic-background-gradients"
+    },
+    {
+      "order": 4,
+      "brand": "AllTrails",
+      "categoryZh": "单次试用",
+      "titleZh": "付费功能先免费用一次，价值发生在购买前",
+      "bodyZh": "AllTrails 会为部分高级能力提供一次完整试用。用户可以先体验功能如何解决眼前问题，再决定是否购买无限使用权。",
+      "insightZh": "当价值难以用文案讲清楚，就把试用限制在一次有意义的真实任务里。",
+      "image": "assets/ux-bites-142/04-alltrails-try-once.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/try-it-once"
+    },
+    {
+      "order": 5,
+      "brand": "Google Meet",
+      "categoryZh": "情境收起",
+      "titleZh": "切到聊天页时，自动让视频让出空间",
+      "bodyZh": "Google Meet 会在用户打开聊天页时自动隐藏悬浮视频画面。参与者仍在会议中，但不会让视频覆盖消息输入和阅读区域。",
+      "insightZh": "持久元素也要服从当前任务；一旦遮挡主动作，就应该主动退场。",
+      "image": "assets/ux-bites-142/05-google-meet-chat.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/hiding-the-video-when"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}
