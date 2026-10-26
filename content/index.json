@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-19T00:55:23Z",
+  "updatedAt": "2026-10-26T00:56:15Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a12f05165fd3799",
-      "latestDate": "2026-10-12",
+      "latestMessageId": "1a153158e1a0cd4c",
+      "latestDate": "2026-10-19",
       "latestCaseStudyMessageId": "1a110103f1e57c1d",
       "latestCaseStudyDate": "2026-10-06",
       "latestCaseStudyIssue": 95
@@ -17,11 +17,11 @@
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a10d1e40d0f904a",
-      "latestDate": "2026-10-06"
+      "latestMessageId": "1a155371bd57a8e4",
+      "latestDate": "2026-10-19"
     }
   ],
-  "latestIssue": 142,
+  "latestIssue": 143,
   "caseStudies": [
     {
       "issue": 95,
@@ -34,6 +34,14 @@
     }
   ],
   "issues": [
+    {
+      "issue": 143,
+      "date": "2026-10-19",
+      "title": "在需要选择、表达与纠错的时刻，把下一步放到眼前",
+      "slug": "ux-bites-143",
+      "gmailMessageId": "1a153158e1a0cd4c",
+      "caseCount": 5
+    },
     {
       "issue": 142,
       "date": "2026-10-12",

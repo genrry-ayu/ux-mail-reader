@@ -1,0 +1,63 @@
+{
+  "source": "UX Bites",
+  "sender": "peter@builtformars.com",
+  "gmailMessageId": "1a153158e1a0cd4c",
+  "issue": 143,
+  "date": "2026-10-19",
+  "subject": "UX Bites #143 — Bitepal, Blinkist & StillMind",
+  "titleZh": "在需要选择、表达与纠错的时刻，把下一步放到眼前",
+  "summaryZh": "Bitepal 让用户先选择吉祥物的说话语气，Blinkist 把缺失内容变成一键请求，StillMind 允许直接口述目标，Deliveroo 主动提示更大的同品牌门店，Granola 则自动清理五秒内结束的误录音。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Bitepal",
+      "categoryZh": "语气选择",
+      "titleZh": "先看它怎么说，再决定想和谁相处",
+      "bodyZh": "Bitepal 在引导中让用户为吉祥物选择说话语气，并为每种人格直接展示一句示例。用户不是在猜抽象标签，而是在比较日后真正会收到怎样的反馈。",
+      "insightZh": "涉及人格与语气的选择，先展示真实输出，比解释标签更可靠。",
+      "image": "assets/ux-bites-143/01-bitepal-mascot-tone.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/select-your-mascots-tone"
+    },
+    {
+      "order": 2,
+      "brand": "Blinkist",
+      "categoryZh": "内容请求",
+      "titleZh": "搜索没有结果时，仍然给用户一个有用动作",
+      "bodyZh": "Blinkist 会在搜索结果末尾列出尚未收录、但可能符合意图的书目。用户可以单击请求收录，让一次失败搜索变成明确的需求信号。",
+      "insightZh": "空结果不只是终点，也可以是产品收集需求的入口。",
+      "image": "assets/ux-bites-143/02-blinkist-request-title.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/suggest-these-titles-in-one-tap"
+    },
+    {
+      "order": 3,
+      "brand": "StillMind",
+      "categoryZh": "语音表达",
+      "titleZh": "目标很难打字说清时，让用户直接讲出来",
+      "bodyZh": "StillMind 先用选项帮助用户界定冥想目标，再提供语音入口补充细节。面对压力、焦虑等不容易压缩成一句话的内容，口述比键盘更接近自然表达。",
+      "insightZh": "输入越私人、越复杂，越应该提供比短文本更自然的表达方式。",
+      "image": "assets/ux-bites-143/03-stillmind-voice-goals.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/want-to-tell-us-more"
+    },
+    {
+      "order": 4,
+      "brand": "Deliveroo",
+      "categoryZh": "替代门店",
+      "titleZh": "当前门店选择少，直接告诉用户附近还有更大的",
+      "bodyZh": "当用户浏览某家超市时，Deliveroo 会动态提示附近是否有同品牌的大型门店，并给出切换入口。它把更丰富的商品选择放在用户已经感到受限的时刻。",
+      "insightZh": "识别当前选择的限制，并在原地给出更合适的替代方案。",
+      "image": "assets/ux-bites-143/04-deliveroo-larger-store.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/larger-store-available"
+    },
+    {
+      "order": 5,
+      "brand": "Granola",
+      "categoryZh": "误操作清理",
+      "titleZh": "五秒内结束的录音，不值得成为一条记录",
+      "bodyZh": "Granola 会把五秒内结束的录音视为误触并直接取消，而不是保存进资料库。用户不必再手动清理只有一两秒的无效片段。",
+      "insightZh": "当短暂行为几乎总是误操作，系统应在写入历史前主动过滤。",
+      "image": "assets/ux-bites-143/05-granola-five-seconds.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/within-5-seconds"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}
