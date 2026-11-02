@@ -3,6 +3,84 @@
   "sender": "alertbox@nngroup.com",
   "items": [
     {
+      "gmailMessageId": "1a17943ad0d5396a",
+      "date": "2026-10-26",
+      "subject": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings | UX Disciplines: Glossary",
+      "topic": "AI 工作现实",
+      "title": "AI 让 UX 工作变快，却没有让从业者更轻松",
+      "summary": "NN/g 调查了 521 名 UX 从业者。AI 几乎人人可用，也让多数任务更快，但开放评论里 69% 带有负面情绪：核验错误、被强制采用、他人的 AI 粗糙产物和更高的产出预期，正在吃掉节省下来的时间。",
+      "insight": "不要只量速度；还要量核验成本、质量责任和组织压力。",
+      "author": "Maria Rosala、Rachel Banawa",
+      "publishedAt": "2026-10-23",
+      "sourceUrl": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+      "chapters": [
+        {
+          "label": "看采用差异",
+          "title": "99% 能接触 AI，不代表每个组织和角色都用得一样",
+          "summary": "几乎所有受访者都能使用生成式 AI，但 59% 只能使用组织批准的工具。Agent 工具在初创公司中的使用率为 85%，非营利或教育机构仅 36%；运营和产品角色使用最多，研究与内容角色更少。"
+        },
+        {
+          "label": "识别阻力",
+          "title": "最大的门槛不是买不到工具，而是不可靠与不安全",
+          "summary": "54% 的受访者担心输出质量，50% 担心数据安全或隐私，只有 9% 认为没有主要障碍。很多人不仅要检查自己的结果，还要修复同事快速生成、却无法直接使用的内容。"
+        },
+        {
+          "label": "按任务分配",
+          "title": "AI 最适合桌面工作，越靠近真实用户，使用越谨慎",
+          "summary": "代码、桌面研究和数据分析是使用最频繁、节省时间最多的任务。61% 从不让 AI 访谈用户，51% 从不用它测试设计；涉及人的任务需要真实情境与判断，AI 更适合辅助准备，而不是替代互动。"
+        },
+        {
+          "label": "看速度代价",
+          "title": "平均态度只有 3.57 分，因为省下的时间常被更高预期吞掉",
+          "summary": "虽然每类任务都被认为更快，但开放评论明显偏负面。最常见原因是输出不可靠与核验负担，其次是技能退化、伦理顾虑、被强制使用、专业价值被低估，以及领导要求用更短时间做更多工作。"
+        },
+        {
+          "label": "重看角色",
+          "title": "多数人相信岗位仍重要，但研究与设计比产品经理更不安",
+          "summary": "65% 认为自己的角色会保持重要或承担更高价值工作，只有 18% 预计缩小或消失。产品经理的工作安全感评分为 3.81，设计为 2.99、研究为 2.94；能跨越多种任务的广义角色可能更有安全感。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "1a17943ad0d5396a",
+      "date": "2026-10-26",
+      "subject": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings | UX Disciplines: Glossary",
+      "topic": "UX 职能边界",
+      "title": "别再把 UX、UI、产品设计和产品管理混成一件事",
+      "summary": "UX 相关职称没有统一标准，NN/g 的职业调查甚至收集到 134 种不同称呼。这份词汇表不以职位名称划线，而是按工作对象、产出和责任，区分 UX、UI、研究、内容、产品、服务与运营等相邻领域。",
+      "insight": "先按产出与责任对齐，再讨论职称。",
+      "author": "Raluca Budiu",
+      "publishedAt": "2026-10-23",
+      "sourceUrl": "https://www.nngroup.com/articles/ux-disciplines-glossary/",
+      "chapters": [
+        {
+          "label": "先认清伞形",
+          "title": "UX 既是一门领域，也可以指人和产品之间的整体体验",
+          "summary": "作为领域，UX 包含研究、设计、内容设计、信息架构等多个专业；作为体验，它又指人在单次互动、完整旅程和长期关系中的感受。团队需要先确认自己讨论的是职业范围，还是体验本身。"
+        },
+        {
+          "label": "区分界面",
+          "title": "UI 是体验的一部分，视觉和交互决定它怎样看、怎样动",
+          "summary": "UI 设计组合视觉与交互；视觉设计决定元素如何呈现，交互设计决定动作、反馈和状态变化。一个界面可以看起来很好，却因为内容或功能不对而仍然提供糟糕的 UX。"
+        },
+        {
+          "label": "理清内容",
+          "title": "UX 写作负责词句，内容设计还负责结构，内容策略负责长期治理",
+          "summary": "UX 写作聚焦标签、提示和错误信息；内容设计判断用户需要什么信息、何时需要以及怎样呈现；内容策略再向上管理内容的目的、所有权、格式、分发和维护流程。"
+        },
+        {
+          "label": "连接业务系统",
+          "title": "产品设计回答怎么做，产品管理回答做什么和为什么",
+          "summary": "产品设计关注端到端产品体验，产品管理负责愿景、路线图和业务结果。CX 看客户与组织的长期关系，服务设计还会把后台人员和流程纳入；市场研究服务市场决策，UX 研究服务设计决策。"
+        },
+        {
+          "label": "看见新边界",
+          "title": "运营让专业规模化，AX 开始为代表人的 AI Agent 设计",
+          "summary": "DesignOps 和 ResearchOps 分别优化设计与研究的人员、流程、工具和治理。Agent Experience 则要求信息、权限、工具描述与 API 能被 AI Agent 理解和操作，扩展了传统面向人类界面的设计边界。"
+        }
+      ]
+    },
+    {
       "gmailMessageId": "1a155371bd57a8e4",
       "date": "2026-10-19",
       "subject": "Synthetic Users vs. Human Respondents | UX Maps: Glossary",

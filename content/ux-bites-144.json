@@ -1,0 +1,93 @@
+{
+  "source": "UX Bites",
+  "sender": "peter@builtformars.com",
+  "gmailMessageId": "1a17756d6b7d33c7",
+  "issue": 144,
+  "date": "2026-10-26",
+  "subject": "UX Bites #144 — The Ahead Special",
+  "titleZh": "把心理学做成动作、节奏与反馈，而不只是文案",
+  "summaryZh": "Ahead 用手写承诺、五秒挑战、即时课程、价格框架、分享校验、强制休息、个性化反馈和可变奖励，把情绪管理里的抽象原则变成用户可以直接感知的产品动作。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Ahead",
+      "categoryZh": "承诺仪式",
+      "titleZh": "让承诺从一句话，变成亲手完成的动作",
+      "bodyZh": "Ahead 在引导中让用户画下勾号或笑脸，再确认会持续使用产品。这个小动作把被动阅读变成一次由用户亲手完成的承诺。",
+      "insightZh": "需要用户投入长期行动时，让他先完成一个与承诺相关的小动作，比只点按钮更有参与感。",
+      "image": "assets/ux-bites-144/01-ahead-signature.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/a-literal-signature-to-commit"
+    },
+    {
+      "order": 2,
+      "brand": "Ahead",
+      "categoryZh": "游戏化练习",
+      "titleZh": "把情绪练习藏进一个五秒挑战",
+      "bodyZh": "完成课程后，Ahead 会触发一个快速点击小游戏，并展示个人最好成绩和全站最高分。抽象的情绪练习被压缩成一个立刻能完成的身体动作。",
+      "insightZh": "学习后的短动作可以帮助记忆，但竞争机制应服务练习目标，而不是抢走注意力。",
+      "image": "assets/ux-bites-144/02-ahead-tap-challenge.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/emotional-tap-challenge"
+    },
+    {
+      "order": 3,
+      "brand": "Ahead",
+      "categoryZh": "即时价值",
+      "titleZh": "先问一道容易回答的问题，再把答案变成下一课",
+      "bodyZh": "用户打开 Ahead 时会先遇到一道简单的每日问题；答案随即被用来推荐相关课程，让个性化价值几乎在一次点击后就出现。",
+      "insightZh": "个性化不一定需要漫长问卷；先用一个低成本回答，把用户带到最相关的下一步。",
+      "image": "assets/ux-bites-144/03-ahead-time-to-value.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/reducing-time-to-value"
+    },
+    {
+      "order": 4,
+      "brand": "Ahead",
+      "categoryZh": "付费框架",
+      "titleZh": "试用前的三句话，重新定义用户怎么看价格",
+      "bodyZh": "Ahead 把政策称为“公平试用”，把价格与一张电影票比较，并用“这很公平”作为按钮文案。三个连续框架共同影响用户如何理解付费。",
+      "insightZh": "框架可以降低理解成本，但不要让按钮替用户表达并未真正形成的同意。",
+      "image": "assets/ux-bites-144/04-ahead-fair-trial.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/jam-packed-with-psychology"
+    },
+    {
+      "order": 5,
+      "brand": "Ahead",
+      "categoryZh": "关键动作校验",
+      "titleZh": "结果依赖分享时，先确认链接真的发出去了",
+      "bodyZh": "Ahead 的匿名测试需要用户把链接发给朋友。若用户没有复制链接就继续，系统会提醒分享是计算结果的前提，并再次提供入口。",
+      "insightZh": "当关键动作发生在产品之外，不要假设它已经完成；在依赖它的下一步前做一次轻量校验。",
+      "image": "assets/ux-bites-144/05-ahead-share-check.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/are-you-sure-you-shared-it"
+    },
+    {
+      "order": 6,
+      "brand": "Ahead",
+      "categoryZh": "节奏控制",
+      "titleZh": "当连续使用会削弱效果，产品可以主动让用户停下",
+      "bodyZh": "Ahead 不鼓励用户一天刷完全部课程；达到一定进度后，产品会让用户休息，并明确说明需要时间消化，明天再回来。",
+      "insightZh": "强制暂停只有在保护结果时才合理；说明为什么要停，以及何时可以继续。",
+      "image": "assets/ux-bites-144/06-ahead-forced-breaks.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/forced-breaks"
+    },
+    {
+      "order": 7,
+      "brand": "Ahead",
+      "categoryZh": "个性化反馈",
+      "titleZh": "别只在后台学习，要让用户看见系统正在理解他",
+      "bodyZh": "用户回答问题时，Ahead 会直接显示“正在向你学习”的状态。它把原本隐藏的个性化过程变成可见反馈，让后续推荐显得更有依据。",
+      "insightZh": "个性化系统应说明自己何时学习，以及这些信息会影响什么。",
+      "image": "assets/ux-bites-144/07-ahead-learning.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/were-learning-from-you"
+    },
+    {
+      "order": 8,
+      "brand": "Ahead",
+      "categoryZh": "可变奖励",
+      "titleZh": "奖励不只给糖，也可以顺手教会一个功能",
+      "bodyZh": "达到里程碑后，Ahead 让用户从三个宝箱中选择一个，奖励通常是一条产品技巧。选择感和随机性提升了打开意愿，内容本身又能继续教育用户。",
+      "insightZh": "奖励越能帮助用户继续完成目标，就越不像单纯操纵注意力的诱饵。",
+      "image": "assets/ux-bites-144/08-ahead-treasure.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/unlock-a-treasure-box"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}
