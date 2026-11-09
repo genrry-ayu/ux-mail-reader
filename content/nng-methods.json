@@ -3,6 +3,84 @@
   "sender": "alertbox@nngroup.com",
   "items": [
     {
+      "gmailMessageId": "1a19d86cb1540e55",
+      "date": "2026-11-02",
+      "subject": "Experience Design: Dropping the ‘User’ from ‘UX’ | The Role of UX in Agentic Software Factories",
+      "topic": "人机协同体验",
+      "title": "“用户”不再总是直接操作产品，体验设计开始研究人、Agent 与交接",
+      "summary": "AI Agent 正在代表人完成购物、预订、投诉与取消订阅。NN/g 认为设计对象应从直接使用界面的人，扩大到 Agent 使用的系统，以及任务在人和 Agent 之间来回切换的完整旅程。",
+      "insight": "别只评估人或 Agent；要评估目标、授权、交接、透明与恢复组成的完整系统。",
+      "author": "Raluca Budiu",
+      "publishedAt": "2026-10-30",
+      "sourceUrl": "https://www.nngroup.com/articles/ux-vs-experience-design/",
+      "chapters": [
+        {
+          "label": "扩大对象",
+          "title": "UX 曾从界面扩展到旅程，现在又从单一用户扩展到多个行动者",
+          "summary": "UX 早已不只研究屏幕，而是覆盖包装、支持服务和跨渠道旅程。AI 改变了一个长期假设：人不一定直接接触企业，个人 Agent 可能代替他使用 API、数据与服务，成为眼前的直接用户。"
+        },
+        {
+          "label": "守住中心",
+          "title": "体验设计范围更广，但成功标准仍然是人的目标与利益",
+          "summary": "NN/g 将体验设计定义为：无论人直接操作，还是由 Agent 代劳，都要设计并评估人如何借助产品、服务和系统完成目标。为 Agent 优化不能凌驾于背后人的安全、意图和福祉。"
+        },
+        {
+          "label": "分清三类",
+          "title": "分别研究人直接使用、Agent 代劳，以及人和 Agent 共同完成任务",
+          "summary": "传统可用性、信息架构、内容与无障碍仍是基础；Agent 还会依赖结构化数据、代码与 API。第三类问题出现在两者共同参与时：单独看都能工作，组合成一条旅程却可能失效。"
+        },
+        {
+          "label": "盯住交接",
+          "title": "真正容易断裂的地方，是控制权在人与 Agent 之间移动的瞬间",
+          "summary": "文章以 Agent 订机票后要求人登录为例：密码管理器在 Agent 内置浏览器中不可用，任务就在交接处中断。信息与进度的连续、授权、透明、撤销和恢复，都应成为独立的体验问题。"
+        },
+        {
+          "label": "改造方法",
+          "title": "保留质性研究，同时增加重复运行、轨迹检查与控制权分析",
+          "summary": "生成式系统的非确定性、自治与推断能力要求团队观察多次运行的差异、检查日志轨迹，并研究上下文、工具和权限如何影响行为。研究重点也要覆盖人怎样委托，以及控制何时交还给人。"
+        }
+      ]
+    },
+    {
+      "gmailMessageId": "1a19d86cb1540e55",
+      "date": "2026-11-02",
+      "subject": "Experience Design: Dropping the ‘User’ from ‘UX’ | The Role of UX in Agentic Software Factories",
+      "topic": "AI 原生研发",
+      "title": "AI 会写代码，不代表它知道什么值得做",
+      "summary": "AI 原生研发把 Agent 设为主要执行者，并用一串可审计的 Markdown 文档驱动计划、设计、构建与发布。但若 UX 只被压缩成给 AI 的上下文，团队就会失去发现需求、共同判断和验证结果的机制。",
+      "insight": "把 UX 放进计划、评审与上线后的用户信号，不要只塞进提示词。",
+      "author": "Tanner Kohler",
+      "publishedAt": "2026-10-30",
+      "sourceUrl": "https://www.nngroup.com/articles/ux-agentic-software-factories/",
+      "chapters": [
+        {
+          "label": "看清流程",
+          "title": "AI 原生 SDLC 不是只把代码写快，而是让意图和上下文驱动整条流水线",
+          "summary": "Anthropic 的流程保留计划、设计、构建、测试、发布和维护六个阶段，却让 Agent 生成 intent.md、spec.md 和 plan.md，并让人把守审批门。上下文负责约束产出，文档链负责记录决定。"
+        },
+        {
+          "label": "识别缺口",
+          "title": "上下文只能编码已知知识，不能自动发现新的用户需求",
+          "summary": "任何人都能生成 intent.md，却没有机制确保问题来自真实需求。孤立提交还会削弱跨职能判断，让商业目标掌握审批权，而用户可取性与尚未被发现的问题被排除在流程之外。"
+        },
+        {
+          "label": "拒绝捷径",
+          "title": "一张符合规范的 AI Mockup，不等于经过研究与验证的用户体验",
+          "summary": "设计系统能约束视觉，但不能证明方案满足真实任务；拿 Mockup 与成品截图对比，也只能检查实现一致性。若团队和 AI 共同制造的盲点进入最初文档，它会一路穿过测试阶段。"
+        },
+        {
+          "label": "补齐三职能",
+          "title": "UX 要决定什么值得做、评估做出的东西，并维护生成上下文",
+          "summary": "AI 原生流程目前主要支持第三项：给 Agent 提供知识。前两项仍需要研究与判断，包括在立项前发现问题、让团队形成共同标准，以及用真实用户和可用性指标验证产出。"
+        },
+        {
+          "label": "落进机制",
+          "title": "把用户需求、人工复核和用户成功信号写进每个关键门槛",
+          "summary": "intent.md 应要求说明用户目标与证据；导航、信息架构等高风险变更要触发 UX 专家复核；上线后要监控任务放弃、转化下降与支持请求。UX 还应拥有机器可读的研究与设计系统上下文。"
+        }
+      ]
+    },
+    {
       "gmailMessageId": "1a17943ad0d5396a",
       "date": "2026-10-26",
       "subject": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings | UX Disciplines: Glossary",

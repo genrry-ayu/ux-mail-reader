@@ -1,0 +1,63 @@
+{
+  "source": "UX Bites",
+  "sender": "peter@builtformars.com",
+  "gmailMessageId": "1a19b8837504a93b",
+  "issue": 145,
+  "date": "2026-11-02",
+  "subject": "UX Bites #145 — Posthog, Figma & AliExpress",
+  "titleZh": "把反馈、补全与建议放进用户正在犹豫的那一刻",
+  "summaryZh": "PostHog、Figma、AliExpress、Vercel 与 Discord 没有额外制造流程，而是在缺失功能、输入表单、跳过安全步骤和命名冲突出现时，直接给出与当前动作相关的反馈或下一步。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "PostHog",
+      "categoryZh": "情境反馈",
+      "titleZh": "别把反馈邀请放在路边，把投票入口放进缺失功能里",
+      "bodyZh": "PostHog 会把路线图里的功能直接显示在未来应出现的位置，并允许用户当场投票。它既告诉主动寻找功能的人“正在做”，也保留了需求发生时的真实情境。",
+      "insightZh": "想判断需求强弱，就在用户遇到缺口的地方收集反馈，不要把情境丢进一份泛泛问卷。",
+      "image": "assets/ux-bites-145/01-posthog-roadmap.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/gathering-feedback-within-the-product"
+    },
+    {
+      "order": 2,
+      "brand": "Figma",
+      "categoryZh": "即时预览",
+      "titleZh": "让用户刚输入的名字，立刻出现在产品的下一帧",
+      "bodyZh": "注册 Figma 时，用户输入的名字会同步出现在右侧动画光标上。一个普通表单字段因此变成了协作身份的即时预览。",
+      "insightZh": "当输入会改变后续体验时，立即展示结果，比解释这项信息将被如何使用更有说服力。",
+      "image": "assets/ux-bites-145/02-figma-cursor.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/dynamic-product-animations"
+    },
+    {
+      "order": 3,
+      "brand": "AliExpress",
+      "categoryZh": "输入补全",
+      "titleZh": "邮箱只差后半截时，别让用户把常见域名敲完",
+      "bodyZh": "用户输入邮箱时，AliExpress 会在下拉列表里补出 Gmail、Hotmail 等常见域名。它减少键入，也降低了域名拼错的概率。",
+      "insightZh": "只在结尾高度可预测时提供补全，让建议缩短输入，而不是抢走用户对内容的控制。",
+      "image": "assets/ux-bites-145/03-aliexpress-domains.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/quick-select-email-domains"
+    },
+    {
+      "order": 4,
+      "brand": "Vercel",
+      "categoryZh": "安全劝导",
+      "titleZh": "用户准备跳过安全步骤时，先让推荐理由亮起来",
+      "bodyZh": "设置双重验证时，如果用户把鼠标移到“先跳过”上，Vercel 会让推荐说明变成橙色，把风险提醒重新带回视线。",
+      "insightZh": "退出关键保护前，用与当前选择直接相关的强调提醒一次；不要用拦截弹窗把建议变成强迫。",
+      "image": "assets/ux-bites-145/04-vercel-2fa.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/wait-we-recommend-this"
+    },
+    {
+      "order": 5,
+      "brand": "Discord",
+      "categoryZh": "可用命名",
+      "titleZh": "先接受用户想要的名字，再给出一个可用版本",
+      "bodyZh": "用户填写显示名称后，Discord 会在用户名字段下直接给出可用建议，避免反复尝试已经被占用的组合。",
+      "insightZh": "先保留用户表达身份的意图，再把唯一性约束转成一个可以一键采用的候选。",
+      "image": "assets/ux-bites-145/05-discord-username.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/suggested-usernames-in-one-tap"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}

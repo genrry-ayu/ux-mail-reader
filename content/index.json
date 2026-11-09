@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-02T01:02:34Z",
+  "updatedAt": "2026-11-09T01:00:26Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a17756d6b7d33c7",
-      "latestDate": "2026-10-26",
+      "latestMessageId": "1a19b8837504a93b",
+      "latestDate": "2026-11-02",
       "latestCaseStudyMessageId": "1a110103f1e57c1d",
       "latestCaseStudyDate": "2026-10-06",
       "latestCaseStudyIssue": 95
@@ -17,11 +17,11 @@
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a17943ad0d5396a",
-      "latestDate": "2026-10-26"
+      "latestMessageId": "1a19d86cb1540e55",
+      "latestDate": "2026-11-02"
     }
   ],
-  "latestIssue": 144,
+  "latestIssue": 145,
   "caseStudies": [
     {
       "issue": 95,
@@ -34,6 +34,14 @@
     }
   ],
   "issues": [
+    {
+      "issue": 145,
+      "date": "2026-11-02",
+      "title": "把反馈、补全与建议放进用户正在犹豫的那一刻",
+      "slug": "ux-bites-145",
+      "gmailMessageId": "1a19b8837504a93b",
+      "caseCount": 5
+    },
     {
       "issue": 144,
       "date": "2026-10-26",
