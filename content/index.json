@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-09T01:00:26Z",
+  "updatedAt": "2026-11-16T01:02:08Z",
   "sources": [
     {
       "id": "ux-bites",
       "name": "UX Bites",
       "role": "cases",
       "sender": "peter@builtformars.com",
-      "latestMessageId": "1a19b8837504a93b",
-      "latestDate": "2026-11-02",
+      "latestMessageId": "1a1bf5b1b96a9afe",
+      "latestDate": "2026-11-09",
       "latestCaseStudyMessageId": "1a110103f1e57c1d",
       "latestCaseStudyDate": "2026-10-06",
       "latestCaseStudyIssue": 95
@@ -17,11 +17,11 @@
       "name": "Nielsen Norman Group",
       "role": "methods",
       "sender": "alertbox@nngroup.com",
-      "latestMessageId": "1a19d86cb1540e55",
-      "latestDate": "2026-11-02"
+      "latestMessageId": "1a1c1939d3a8e2eb",
+      "latestDate": "2026-11-09"
     }
   ],
-  "latestIssue": 145,
+  "latestIssue": 146,
   "caseStudies": [
     {
       "issue": 95,
@@ -34,6 +34,14 @@
     }
   ],
   "issues": [
+    {
+      "issue": 146,
+      "date": "2026-11-09",
+      "title": "把已有信息直接变成下一步，在关键风险前只加必要阻力",
+      "slug": "ux-bites-146",
+      "gmailMessageId": "1a1bf5b1b96a9afe",
+      "caseCount": 5
+    },
     {
       "issue": 145,
       "date": "2026-11-02",

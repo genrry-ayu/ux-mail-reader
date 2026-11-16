@@ -1,0 +1,63 @@
+{
+  "source": "UX Bites",
+  "sender": "peter@builtformars.com",
+  "gmailMessageId": "1a1bf5b1b96a9afe",
+  "issue": 146,
+  "date": "2026-11-09",
+  "subject": "UX Bites #146 — Customer, Monzo & Tash",
+  "titleZh": "把已有信息直接变成下一步，在关键风险前只加必要阻力",
+  "summaryZh": "Customer.io、Monzo、Tash 与 TikTok 都在复用用户已有的信息、状态或动作：能自动带入的就不再要求重复填写，需要等待的就先给符合产品气质的反馈，只有真正高风险的删除才增加确认阻力。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "Customer.io",
+      "categoryZh": "品牌预填",
+      "titleZh": "别让用户描述品牌，直接把现成素材带进产品",
+      "bodyZh": "Customer.io 在注册时读取用户提供的网站，把公开可见的品牌名称、标志和颜色直接带入邮件示例。用户回答一个问题，就能立刻看见贴近自己品牌的结果。",
+      "insightZh": "当可靠信息已经公开存在时，优先自动推断并允许修正，不要让用户从空白表单重新描述。",
+      "image": "assets/ux-bites-146/01-customerio-brand.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/pulling-in-your-brand-assets"
+    },
+    {
+      "order": 2,
+      "brand": "Monzo",
+      "categoryZh": "结构化粘贴",
+      "titleZh": "别让用户逐格抄银行信息，让一段粘贴自动找到位置",
+      "bodyZh": "Monzo 允许用户把邮件或聊天中的整段银行账户信息直接粘贴进来，再自动识别户名、分行代码和账号并填入对应字段。",
+      "insightZh": "先接受信息原本的格式，再把它解析成产品需要的结构，比要求用户逐字段搬运更省力。",
+      "image": "assets/ux-bites-146/02-monzo-paste.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/pasting-bank-details-from-whatsapp"
+    },
+    {
+      "order": 3,
+      "brand": "Tash",
+      "categoryZh": "品牌化等待",
+      "titleZh": "等待名单也能先给一次符合产品气质的体验",
+      "bodyZh": "用户提交邮箱后，Tash 让他撕开一个虚拟卡包，随机获得排队名次提升。等待不再只是静态确认，而是提前体验产品的收藏与惊喜感。",
+      "insightZh": "等待奖励应预演产品的核心机制，并服务于报名目标，而不是增加一个无关小游戏。",
+      "image": "assets/ux-bites-146/03-tash-pack.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/join-the-waitlist-to-rip-a-pack"
+    },
+    {
+      "order": 4,
+      "brand": "TikTok",
+      "categoryZh": "无感刷新",
+      "titleZh": "内容没准备好之前，不要把旧内容换成加载屏",
+      "bodyZh": "用户在首页再次点 Home 时，TikTok 会先在后台加载新内容，等新视频准备好才替换当前信息流。原本可用的内容不会被一个空白加载状态打断。",
+      "insightZh": "保留仍然可用的当前状态，等替代内容真正准备好再切换，能让刷新显得更快也更稳。",
+      "image": "assets/ux-bites-146/04-tiktok-refresh.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/reloading-your-tiktok-feed"
+    },
+    {
+      "order": 5,
+      "brand": "Customer.io",
+      "categoryZh": "删除确认",
+      "titleZh": "高风险删除前，让用户把影响范围再说一遍",
+      "bodyZh": "批量删除联系人时，Customer.io 要求用户输入将被删除的人数，只有数值一致才允许继续。确认动作因此直接对应这次操作的真实影响。",
+      "insightZh": "高风险操作的阻力应该证明用户理解后果，而不是只多加一个可以无意识点掉的“确定”。",
+      "image": "assets/ux-bites-146/05-customerio-delete.jpg",
+      "sourceUrl": "https://builtformars.com/ux-bites/intentional-friction-while-deleting"
+    }
+  ],
+  "rightsNote": "仅整理邮件收件人原本可见的内容，不包含 BFM+ 付费锁定内容。内容与案例图片版权归 Built for Mars 及相关权利人所有。"
+}
