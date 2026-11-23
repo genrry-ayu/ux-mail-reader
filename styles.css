@@ -1412,3 +1412,272 @@ img {
     transform: none;
   }
 }
+
+/* UX 信箱 compact reading layout.
+   Apply to the current edition only; keep legacy history and its source data intact. */
+.compact-edition {
+  --edition-max: 720px;
+  --edition-gutter: 16px;
+  --edition-card: #f4f2ee;
+  --edition-card-line: #d3cdc3;
+  --edition-inset: #e6e1d6;
+  --edition-case-text: #45413a;
+  --edition-method-text: #4b473f;
+  --edition-credit: #898989;
+  font-family: var(--sans);
+}
+
+.compact-edition .site-header {
+  grid-template-columns: minmax(0, 1fr) auto;
+  min-height: 60px;
+  height: 60px;
+  padding: 0 max(18px, calc((100% - var(--edition-max)) / 2 + 18px));
+  border: 0;
+}
+
+.compact-edition .header-meta {
+  font-size: 10px;
+}
+
+.compact-edition .reading-layout,
+.compact-edition .issue {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.compact-edition .issue > .source-group[data-source-group="ux-bites"] {
+  display: grid;
+  gap: 16px;
+  width: 100%;
+  max-width: var(--edition-max);
+  margin-inline: auto;
+  padding: 16px var(--edition-gutter);
+}
+
+.compact-edition .issue > .source-group > .case-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 16px;
+  border: 0;
+  outline: .5px solid var(--edition-card-line);
+  outline-offset: -.5px;
+  border-radius: 1px;
+  background: var(--edition-card);
+  color: var(--edition-case-text);
+}
+
+.compact-edition .case-section .case-copy {
+  display: contents;
+}
+
+.compact-edition .case-section .case-meta,
+.compact-edition .case-section .takeaway > span,
+.compact-edition .case-section .case-figure figcaption,
+.compact-edition .case-section .image-button > span,
+.compact-edition .methods-section > .source-section-meta,
+.compact-edition .methods-section > .methods-heading,
+.compact-edition .method-title > p,
+.compact-edition .issue-footer {
+  display: none;
+}
+
+.compact-edition .case-section .case-copy > h3,
+.compact-edition .method-title > h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  text-wrap: wrap;
+  overflow-wrap: anywhere;
+}
+
+.compact-edition .case-section .case-copy > h3 { grid-row: 1; }
+
+.compact-edition .case-section .case-summary,
+.compact-edition .case-section .takeaway p,
+.compact-edition .method-copy > p,
+.compact-edition .method-copy > strong {
+  max-width: none;
+  margin: 0;
+  color: inherit;
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.compact-edition .case-section .case-summary {
+  grid-row: 2;
+  margin-top: 16px;
+}
+
+.compact-edition .case-section .case-figure {
+  grid-row: 3;
+  align-self: auto;
+  min-width: 0;
+  margin: 16px 0 0;
+}
+
+.compact-edition .case-section .image-button {
+  display: block;
+  width: 100%;
+  aspect-ratio: 326 / 232.45;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  outline: .5px solid rgb(24 24 22 / 8%);
+  outline-offset: -.5px;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: zoom-in;
+}
+
+.compact-edition .case-section .image-button::after { display: none; }
+
+.compact-edition .case-section .image-button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  aspect-ratio: auto;
+  border: 0;
+  object-fit: contain;
+  transform: none;
+}
+
+.compact-edition .case-section .image-button:hover img { transform: none; }
+
+.compact-edition .case-section .takeaway,
+.compact-edition .method-copy > strong {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 16px 0 0;
+  padding: 10px 12px;
+  border: 0;
+  background: var(--edition-inset);
+}
+
+.compact-edition .case-section .takeaway { grid-row: 4; }
+
+.compact-edition .case-section .case-copy > .source-credit {
+  grid-row: 5;
+  display: flex;
+  align-items: center;
+  min-height: 16px;
+  margin: 16px 0 0;
+  padding: 0;
+  border: 0;
+  line-height: 16px;
+}
+
+.compact-edition .case-section .source-credit a {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  color: var(--edition-credit);
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.compact-edition .case-section .source-credit a:hover { text-decoration: underline; }
+
+.compact-edition .methods-section {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 16px var(--edition-gutter);
+  border: 0;
+  background: var(--paper-deep);
+}
+
+.compact-edition .method-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  max-width: calc(var(--edition-max) - 2 * var(--edition-gutter));
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+.compact-edition .method-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 24px 16px 0;
+  border: 0;
+  outline: .5px solid rgb(0 0 0 / 8%);
+  outline-offset: -.5px;
+  background: var(--paper);
+  color: var(--edition-method-text);
+}
+
+.compact-edition .method-item > * { grid-column: 1; }
+.compact-edition .method-title { margin-top: 4px; }
+.compact-edition .method-copy { margin-top: 16px; }
+
+.compact-edition .method-number {
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.compact-edition .method-source {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.compact-edition .method-source > summary {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  background: transparent;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.1px;
+}
+
+.compact-edition .method-source > summary span:last-child {
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.compact-edition .method-source[open] > .source-credit { padding-bottom: 16px; }
+.compact-edition .image-button:focus-visible,
+.compact-edition .source-credit a:focus-visible,
+.compact-edition .method-source > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
