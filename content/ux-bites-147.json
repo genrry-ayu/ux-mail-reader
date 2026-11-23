@@ -1,0 +1,60 @@
+{
+  "source": "UX Bites",
+  "issue": 147,
+  "date": "2026-11-16",
+  "titleZh": "把情境变成下一步，让约束保留选择",
+  "summaryZh": "五个案例分别从来路、偏好、动作、个人承诺和人物关系出发，减少无谓选择；它们并不能替代对转化、可访问性和退出成本的验证。",
+  "cases": [
+    {
+      "order": 1,
+      "brand": "The Washington Post",
+      "categoryZh": "来源识别",
+      "titleZh": "从 Reddit 点进来，先看到专属试读额度",
+      "bodyZh": "《华盛顿邮报》识别到访问来自 Reddit 后，会在文章入口提示这类读者可免费阅读七篇，而不是让他们自行查找适用的优惠。",
+      "insightZh": "在付费门槛前先说明这次访问能获得什么；是否提高转化，要拿通用入口做对照。",
+      "image": null,
+      "sourceUrl": "https://builtformars.com/ux-bites/personalised-referrals"
+    },
+    {
+      "order": 2,
+      "brand": "Spotify",
+      "categoryZh": "个性化入口",
+      "titleZh": "从常听曲风出发，一次点击生成歌单",
+      "bodyZh": "Spotify 会展示听众常听的曲风，并问他们是否想生成一份专属混合歌单。选择已经有了依据，用户不必先找功能或自行挑曲。",
+      "insightZh": "用已有行为缩短首次体验，把推荐变成一步可执行的动作。",
+      "image": null,
+      "sourceUrl": "https://builtformars.com/ux-bites/spotify-prompting-mixes"
+    },
+    {
+      "order": 3,
+      "brand": "Focus Flight",
+      "categoryZh": "动作隐喻",
+      "titleZh": "划过登机牌，就开始这一段专注",
+      "bodyZh": "应用把专注计时包装成一段飞行：例如专注 60 分钟就是一段 60 分钟的航程。用户划过屏幕剪开登机牌来启动计时。",
+      "insightZh": "隐喻最好能解释动作结果，而不只是装饰；也应有明显、可访问的启动方式。",
+      "image": null,
+      "sourceUrl": "https://builtformars.com/ux-bites/cut-your-boarding-pass"
+    },
+    {
+      "order": 4,
+      "brand": "Duolingo",
+      "categoryZh": "自愿约束",
+      "titleZh": "先学一课再开别的 App，但由用户自己选",
+      "bodyZh": "Duolingo 提供可选的 iOS 屏幕使用时间联动，用户可以先设定约束，在当天课程完成前暂时挡住其他应用。",
+      "insightZh": "把自律工具作为明确可选的承诺，而非默认为所有用户增加限制。",
+      "image": null,
+      "sourceUrl": "https://builtformars.com/ux-bites/study-now-to-use-twitter"
+    },
+    {
+      "order": 5,
+      "brand": "Sora",
+      "categoryZh": "分享顺序",
+      "titleZh": "分享时先想到出现在视频里的人",
+      "bodyZh": "在这个历史案例里，当 Sora 视频使用了某人的 Cameo，分享列表会把该人物排在前面，便于创作者直接把作品发给对方。",
+      "insightZh": "有明确关联的人比通用推荐更适合作为首选，但不能用界面顺序推断传播增长。",
+      "image": null,
+      "sourceUrl": "https://builtformars.com/ux-bites/soras-sharing-tactic"
+    }
+  ],
+  "rightsNote": "仅用公开案例和邮件可见信息做中文原创摘要，链接指向原始页面；本期不转载图片或付费内容。"
+}
