@@ -1674,7 +1674,104 @@ img {
   line-height: 16px;
 }
 
-.compact-edition .method-source[open] > .source-credit { padding-bottom: 16px; }
+/* The same compact reading type and spacing apply to the open chapters. */
+.compact-edition .method-source .disclosure-when-open,
+.compact-edition .method-source[open] .disclosure-when-closed {
+  display: none;
+}
+
+.compact-edition .method-source[open] .disclosure-when-open {
+  display: inline;
+}
+
+.compact-edition .method-source[open] > summary .disclosure-mark {
+  font-size: 0;
+  transform: none;
+}
+
+.compact-edition .method-source[open] > summary .disclosure-mark::before {
+  content: "−";
+  font-size: 20px;
+}
+
+.compact-edition .method-source > .chapter-list {
+  padding: 0 12px;
+  border: .5px solid var(--edition-card-line);
+  background: var(--edition-card);
+}
+
+.compact-edition .chapter-list > .source-chapter {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 6px 0;
+  padding: 12px 0;
+  border: 0;
+  text-align: left;
+}
+
+.compact-edition .chapter-list > .source-chapter + .source-chapter {
+  border-top: .5px solid var(--edition-card-line);
+}
+
+.compact-edition .source-chapter > span {
+  color: #9c3924;
+  font: 500 12px/16px var(--sans);
+  font-variant-numeric: tabular-nums;
+}
+
+.compact-edition .source-chapter > div,
+.compact-edition .source-chapter > p {
+  grid-column: 1;
+  min-width: 0;
+}
+
+.compact-edition .source-chapter > div > p {
+  margin: 0 0 4px;
+  color: #686258;
+  font: 400 12px/16px var(--sans);
+  letter-spacing: 0;
+}
+
+.compact-edition .source-chapter h4 {
+  max-width: none;
+  margin: 0;
+  color: var(--ink);
+  font: 500 16px/22px var(--sans);
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.compact-edition .source-chapter > p {
+  max-width: none;
+  margin: 0;
+  color: var(--edition-method-text);
+  font: 400 16px/24px var(--sans);
+  overflow-wrap: anywhere;
+}
+
+.compact-edition .method-source > .source-credit {
+  display: block;
+  padding: 12px 0 16px;
+  color: #686258;
+  text-align: left;
+}
+
+.compact-edition .method-source > .source-credit p,
+.compact-edition .method-source > .source-credit a {
+  color: inherit;
+  font: 400 12px/18px var(--sans);
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.compact-edition .method-source > .source-credit a {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 0;
+  border: 0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .compact-edition .image-button:focus-visible,
 .compact-edition .source-credit a:focus-visible,
 .compact-edition .method-source > summary:focus-visible {
