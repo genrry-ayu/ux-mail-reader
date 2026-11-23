@@ -12,8 +12,10 @@
       "titleZh": "从 Reddit 点进来，先看到专属试读额度",
       "bodyZh": "《华盛顿邮报》识别到访问来自 Reddit 后，会在文章入口提示这类读者可免费阅读七篇，而不是让他们自行查找适用的优惠。",
       "insightZh": "在付费门槛前先说明这次访问能获得什么；是否提高转化，要拿通用入口做对照。",
-      "image": null,
-      "sourceUrl": "https://builtformars.com/ux-bites/personalised-referrals"
+      "image": "./assets/ux-bites-147/01-referral.svg",
+      "sourceUrl": "https://builtformars.com/ux-bites/personalised-referrals",
+      "imageAlt": "交互示意：从 Reddit 进入文章，看到七篇试读额度，再决定是否继续阅读。",
+      "imageKind": "original-schematic"
     },
     {
       "order": 2,
@@ -22,8 +24,10 @@
       "titleZh": "从常听曲风出发，一次点击生成歌单",
       "bodyZh": "Spotify 会展示听众常听的曲风，并问他们是否想生成一份专属混合歌单。选择已经有了依据，用户不必先找功能或自行挑曲。",
       "insightZh": "用已有行为缩短首次体验，把推荐变成一步可执行的动作。",
-      "image": null,
-      "sourceUrl": "https://builtformars.com/ux-bites/spotify-prompting-mixes"
+      "image": "./assets/ux-bites-147/02-mixes.svg",
+      "sourceUrl": "https://builtformars.com/ux-bites/spotify-prompting-mixes",
+      "imageAlt": "交互示意：用常听曲风个性化推荐，确认后生成混合歌单。",
+      "imageKind": "original-schematic"
     },
     {
       "order": 3,
@@ -32,8 +36,10 @@
       "titleZh": "划过登机牌，就开始这一段专注",
       "bodyZh": "应用把专注计时包装成一段飞行：例如专注 60 分钟就是一段 60 分钟的航程。用户划过屏幕剪开登机牌来启动计时。",
       "insightZh": "隐喻最好能解释动作结果，而不只是装饰；也应有明显、可访问的启动方式。",
-      "image": null,
-      "sourceUrl": "https://builtformars.com/ux-bites/cut-your-boarding-pass"
+      "image": "./assets/ux-bites-147/03-boarding.svg",
+      "sourceUrl": "https://builtformars.com/ux-bites/cut-your-boarding-pass",
+      "imageAlt": "交互示意：选好专注时长，滑动剪开登机牌，启动计时。",
+      "imageKind": "original-schematic"
     },
     {
       "order": 4,
@@ -42,8 +48,10 @@
       "titleZh": "先学一课再开别的 App，但由用户自己选",
       "bodyZh": "Duolingo 提供可选的 iOS 屏幕使用时间联动，用户可以先设定约束，在当天课程完成前暂时挡住其他应用。",
       "insightZh": "把自律工具作为明确可选的承诺，而非默认为所有用户增加限制。",
-      "image": null,
-      "sourceUrl": "https://builtformars.com/ux-bites/study-now-to-use-twitter"
+      "image": "./assets/ux-bites-147/04-commitment.svg",
+      "sourceUrl": "https://builtformars.com/ux-bites/study-now-to-use-twitter",
+      "imageAlt": "交互示意：主动设置使用约束，完成当天课程后解锁选定应用。",
+      "imageKind": "original-schematic"
     },
     {
       "order": 5,
@@ -52,9 +60,11 @@
       "titleZh": "分享时先想到出现在视频里的人",
       "bodyZh": "在这个历史案例里，当 Sora 视频使用了某人的 Cameo，分享列表会把该人物排在前面，便于创作者直接把作品发给对方。",
       "insightZh": "有明确关联的人比通用推荐更适合作为首选，但不能用界面顺序推断传播增长。",
-      "image": null,
-      "sourceUrl": "https://builtformars.com/ux-bites/soras-sharing-tactic"
+      "image": "./assets/ux-bites-147/05-sharing.svg",
+      "sourceUrl": "https://builtformars.com/ux-bites/soras-sharing-tactic",
+      "imageAlt": "交互示意：与视频直接相关的人作为优先分享选项。",
+      "imageKind": "original-schematic"
     }
   ],
-  "rightsNote": "仅用公开案例和邮件可见信息做中文原创摘要，链接指向原始页面；本期不转载图片或付费内容。"
+  "rightsNote": "图片为本站原创交互示意，非原邮件或发布方截图；另附原文链接。"
 }
